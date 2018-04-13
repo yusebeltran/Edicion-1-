@@ -1,0 +1,182 @@
+
+\section{Introducci\'on a GNUradio}
+
+\begin{frame}{}
+
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondocap2}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+\bfseries{\textrm{\Large \\Introducci\'on a GNUradio}}
+\raggedright
+\end{frame}
+
+
+
+\begin{frame}
+  
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo3}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+  
+  \frametitle{¿Qu\'e es GNUradio\index{GNU RADIO}?}
+
+  \begin{itemize}
+  \item {
+    Es un conjunto de herramientas de desarrollo de software gratuito y de c\'odigo abierto que mediante bloques de procesamiento de se\~nales permite a los usuarios dise\~nar, simular y desplegar sistemas de radio del mundo real.\\
+  }
+  \item {
+    Se trata de un marco altamente modular que viene con una amplia biblioteca de bloques de procesamiento que se pueden combinar f\'acilmente para desarrollar aplicaciones, adem\'as brinda la posibilidad de crear y agregar nuevos bloques.
+  }
+  \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Aplicaciones\index{Aplicaciones}}
+  \begin{itemize}
+  \item {
+    Radio de mundo real}
+  \item{
+    Audio procesamiento} 
+  \item{
+    Comunicaciones m\'oviles}
+  \item{
+    Rastreo de sat\'elites}
+  \item{
+    Sistemas de radar}
+  \item{
+    Redes GSM
+  \item{
+    Redes Digitales}
+ }
+    \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Instalaci\'on de GNU RADIO en linux}
+{Para instalar GNUradio se deben seguir los siguientes pasos:}
+\begin{enumerate}[1.]
+\item Ingresar a la ventana de comandos (o terminal) del sistema de su equipo.
+\item Estando conectado a internet, escriba dentro del terminal:
+
+  \begin{block}{}
+  \texttt{
+    sudo apt-get install gnu radio}
+  \end{block}
+
+\item Si su dispositivo tiene contrase\~na, debe ingresarla, al ser solicitada y oprimir enter. 
+\item Luego se deben aceptar los t\'erminos de la instalaci\'on oprimiendo la letra s seguido de enter. 
+\item Una forma de verificar la correcta instalaci\'on es volviendo a ingresar el comando indicado en el punto 2, y si aparece un mensaje anunciando que gnu radio ya esta en su versi\'on mas reciente, su instalaci\'on fue correcta.
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}{Paquetes\index{Paquetes}}
+Con el objetivo de clonar un repositorio y obtener ejemplos de GNU RADIO en nuestro ordenador se deben tener en cuenta los siguientes paquetes: 
+  \begin{itemize}
+  \item {BUILD-ESSENTIAL\\}
+  {Es un meta-paquete el cual se encarga de almacenar paquetes dentro de un paquete. Build essential es un paquete que contiene herramientas necesarias para la creaci\'on, compilaci\'on e instalaci\'on de programas.}
+  \item {CMAKE\\}
+  {Es un sistema de construcci\'on de c\'odigo abierto multiplataforma. Se trata de un conjunto de herramientas dise\~nadas para construir, testear y empaquetar software. Se utiliza para controlar el proceso de compilaci\'on de software utilizando una plataforma sencilla y unos archivos de configuraci\'on independientes del compilador.}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Paquetes\index{Paquetes}}
+  \begin{itemize}
+  \item {GIT\\}
+  {Es un software de control de versiones, pensado en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran n\'umero de archivos de c\'odigo fuente. GIT se ha convertido en un sistema de control de versiones con funcionalidad plena.}
+  \item {LIBBOOST-ALL-DEV\\}
+  {Es una biblioteca de software libre y revisi\'on por partes preparadas para extender las capacidades del lenguaje de programaci\'on; permite ser utilizada en cualquier tipo de proyectos.}
+  \end{itemize}
+\end{frame}
+
+%++++++++++++++++++++
+
+\begin{frame}{Paquetes\index{Paquetes}}
+  \begin{itemize}
+  \item {LIBCPPUNIT-DEV\\}
+  {Es una herramienta para realizar pruebas unitarias  din\'amicas del c\'odigo.}
+  \item {DOXYGEN\\}
+  {Es una herramienta para generar documentaci\'on a partir de c\'odigo fuente. Es un sistema de documentaci\'on para C++, C, Java, Python. Es necesario solo si se desea generar referencias a documentaci\'on externa de la que no tiene las fuentes.}
+  \end{itemize}
+\end{frame}
+
+%+++++++++++++++++++
+
+\begin{frame}{Instalaci\'on de paquetes}
+\begin{enumerate}[1.]
+\item La instalaci\'on de cada uno se los paquetes anteriormente mencionados, se realiza colocando, en la ventana de terminal, los siguientes comandos:
+\end{enumerate}
+
+  \begin{block}{}
+  \texttt{
+  \ \ \ sudo apt-get install build-essential
+    \begin{itemize}
+      \item[] sudo apt-get install cmake
+      \item[] sudo apt-get install git
+      \item[] sudo apt-get install libboost-all-dev
+      \item[] sudo apt-get install libcppunit-dev
+      \item[] sudo apt-get install doxygen
+    \end{itemize}}
+  \end{block}
+
+
+\end{frame}
+
+%++++++++++++++++++++
+
+
+\begin{frame}{Clonar repositorio\index{Clonar Repositorio}}
+El c\'odigo fuente de los ejemplos esta almacenado en github por lo tanto para clonar el repositorio se debe realizar lo siguiente:
+\begin{itemize}
+\item Abrir la ventana de comandos o terminal.
+\item Despu\'es se debe ingresar el siguiente comando para clonar el directorio git:
+
+\begin{block}{}
+  \texttt{
+    git clone https://github.com/gnuradio/gr-tutorial}
+  \end{block}
+
+\item Una vez clonado el directorio se debe ver exactamente los mismo archivos y carpetas, que los del repositorio github, en el PC empleado.
+\end{itemize}
+\end{frame}
+
+%+++++++++++++++++++
+
+\begin{frame}{Instalaci\'on de m\'odulos\index{Modulos}}
+\begin{itemize}
+\item Luego de haber clonado el repositorio, debemos buscar la carpeta de gr-tutorial e ingresar a ella desde el terminal, para ellos se digitalizan los siguientes mandos:
+
+  \begin{block}{}
+  \texttt{
+  \ \ \ ls
+    \begin{itemize}
+      \item[] cd gr-tutorial
+    \end{itemize}}
+  \end{block}
+
+Es importante mencionar que al escribir el primer comando se podr\'an observar la diferentes carpetas que se encuentran en el dispositivo, por lo tanto gr-tutorial debe aparecer entre las opciones para poder digitalizar el segundo comando. 
+\end{itemize}
+\end{frame}
+
+%+++++++++++++++
+
+\begin{frame}{Instalaci\'on de m\'odulos\index{Modulos}}
+\begin{itemize}
+\item Estando dentro de la carpeta, desde terminal, se deben escribir los siguientes comando, con la finalidad de instalar las soluciones o m\'odulos.
+
+  \begin{block}{}
+  \texttt{
+  \ \ \ mkdir build
+    \begin{itemize}
+      \item[] cd build
+      \item[] cmake ..
+      \item[] make -j8
+      \item[] sudo make install
+      \item[]sudo ldconfig
+    \end{itemize}}
+  \end{block}
+
+\end{itemize}
+\end{frame}
