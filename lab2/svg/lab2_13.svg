@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -212,12 +212,12 @@
      id="namedview9694"
      showgrid="false"
      inkscape:zoom="0.73"
-     inkscape:cx="432.88793"
+     inkscape:cx="742.44149"
      inkscape:cy="335.10101"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg9692"
+     inkscape:current-layer="g4649"
      units="in"
      showguides="false" />
   <g
@@ -259,7 +259,7 @@
            x="151.38661"
            y="491.36127"
            id="tspan10910"
-           style="font-size:17.5px">bloques,'Frequency' también será la velocidad a la que la muestra de IQ(Fasor Complejo)</tspan><tspan
+           style="font-size:17.5px">bloques,'Frequency' también será la velocidad a la que la muestra de IQ (Fasor Complejo)</tspan><tspan
            sodipodi:role="line"
            x="151.38661"
            y="513.23627"
@@ -289,7 +289,7 @@
            sodipodi:role="line"
            id="tspan10258"
            x="372.8114"
-           y="378.50443">La trazá recogerá un grupo de muestras y las mostrará</tspan><tspan
+           y="378.50443">La traza recogerá un grupo de muestras y las mostrará</tspan><tspan
            sodipodi:role="line"
            x="372.8114"
            y="400.37943"

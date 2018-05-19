@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -303,10 +303,10 @@
   <rect
      style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 1.7;stroke-dashoffset:0;stroke-opacity:1"
      id="rect4207"
-     width="587.44037"
-     height="139.73755"
-     x="379.86908"
-     y="348.5007"
+     width="567.09027"
+     height="104.46404"
+     x="386.65247"
+     y="352.57074"
      rx="10"
      ry="10" />
   <flowRoot
@@ -316,17 +316,37 @@
      transform="matrix(0.91740801,0,0,0.87278063,1.9324374,91.494195)"><flowRegion
        id="flowRegion7287"><rect
          id="rect7289"
-         width="609.33417"
-         height="135.84698"
+         width="621.16467"
+         height="216.67728"
          x="430.3335"
          y="309.20007"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.55709076px;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL';text-align:start;text-anchor:start" /></flowRegion><flowPara
        id="flowPara7291"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.55709076px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start">Consejo:</flowPara><flowPara
        id="flowPara4203"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif">Si la FFT muestra su señal en banda base. Puede utilizar 'Freq Set Varname' para tener su diagrama de flujo para procesar una señal de interes especifica a la frecuencia haga clic en (Por ejemplo, con el filtro Freq Xlating FIR). Mas adelante.</flowPara></flowRoot>  <path
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif">Si la FFT muestra su señal en banda base, se puede utilizar 'Freq Set Varname' para tener su diagrama de flujo con el fin de  procesar una señal de interes especifico a la frecuencia.</flowPara></flowRoot>  <path
      style="fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.70000005, 1.70000005000000010;stroke-dashoffset:0;marker-start:url(#Arrow1Lstart)"
      d="m 690.54771,326.79389 c -65.12041,0 -65.12041,0 -65.12041,0 l 0,0"
      id="path4242"
      inkscape:connector-curvature="0" />
-</svg>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3381"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3383"><rect
+         id="rect3385"
+         width="458.55624"
+         height="70.547112"
+         x="458.55624"
+         y="387.84427" /></flowRegion><flowPara
+       id="flowPara3387"></flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3389"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3391"><rect
+         id="rect3393"
+         width="14.923428"
+         height="54.26701"
+         x="953.74274"
+         y="504.51834" /></flowRegion><flowPara
+       id="flowPara3395"></flowPara></flowRoot></svg>

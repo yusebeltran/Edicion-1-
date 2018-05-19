@@ -78,7 +78,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -160,7 +160,7 @@
          sodipodi:role="line"
          x="696.04541"
          y="791.68188"
-         id="tspan4190">la frecuencia en la que haga clic en el area de trazado FFT.</tspan></text>
+         id="tspan4190">la frecuencia en la que haga clic en el área de trazado FFT.</tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 3.4;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4199"

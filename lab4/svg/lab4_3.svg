@@ -192,7 +192,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70910507"
+     inkscape:zoom="0.2"
      inkscape:cx="520.92896"
      inkscape:cy="139.44814"
      inkscape:document-units="mm"
@@ -200,10 +200,10 @@
      showgrid="false"
      inkscape:measure-start="-208.621,855.172"
      inkscape:measure-end="-281.034,862.069"
-     inkscape:window-width="959"
-     inkscape:window-height="576"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="false" />
   <metadata
@@ -223,28 +223,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-177)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="142.20862"
-       y="187.92784"
-       id="text893"><tspan
-         sodipodi:role="line"
-         x="142.20862"
-         y="187.92784"
-         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
-         id="tspan895"> </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="148.16478"
-       y="186.59502"
-       id="text893-1-9"><tspan
-         sodipodi:role="line"
-         x="148.16478"
-         y="186.59502"
-         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
-         id="tspan1382-6"> </tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot6132"
@@ -256,17 +234,6 @@
            x="590.42554"
            y="37.585857" /></flowRegion><flowPara
          id="flowPara6138"
-         style="font-size:18.66666603px;line-height:0"> </flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot6148"
-       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
-         id="flowRegion6150"><rect
-           id="rect6152"
-           width="308.51065"
-           height="167.02127"
-           x="556.383"
-           y="-8.158823" /></flowRegion><flowPara
-         id="flowPara6154"
          style="font-size:18.66666603px;line-height:0"> </flowPara></flowRoot>    <image
        y="186.13837"
        x="21.85054"
@@ -323,30 +290,6 @@
        y="203.54221"
        rx="2.8222222"
        ry="2.8222222" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.452;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5008)"
-       d="m 141.58991,192.50249 -41.869194,0.38264"
-       id="path1281-6-8"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <rect
-       style="opacity:0;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.42333335;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1.60000002;stroke-dasharray:0.42333333, 0.84666673;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect861-3-6-0-1"
-       width="51.872257"
-       height="23.325089"
-       x="141.98085"
-       y="180.45782"
-       rx="10.000007"
-       ry="4.3516955" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45155555;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.45155556, 0.90311114;stroke-dashoffset:0.90311122;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect861-0-8-9"
-       width="72.210312"
-       height="23.423258"
-       x="141.98085"
-       y="180.45782"
-       rx="2.8222222"
-       ry="2.8222222" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -389,26 +332,5 @@
          y="265.444"
          style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan1382">3khz de frecuencia.  </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="144.22427"
-       y="186.82138"
-       id="text893-1-6-2"><tspan
-         sodipodi:role="line"
-         x="144.22427"
-         y="186.82138"
-         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
-         id="tspan2521-1">Genera una señal </tspan><tspan
-         sodipodi:role="line"
-         x="144.22427"
-         y="192.995"
-         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
-         id="tspan6191">cuadrada que</tspan><tspan
-         sodipodi:role="line"
-         x="144.22427"
-         y="199.16861"
-         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
-         id="tspan6193">representa la información.  </tspan></text>
   </g>
 </svg>

@@ -15,7 +15,7 @@
    viewBox="0 0 262 123"
    version="1.1"
    id="svg11122"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (unknown)"
    sodipodi:docname="mod_4.svg">
   <defs
      id="defs11116">
@@ -86,7 +86,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84"
+     inkscape:zoom="0.2"
      inkscape:cx="286.64642"
      inkscape:cy="213.96153"
      inkscape:document-units="mm"
@@ -94,10 +94,10 @@
      showgrid="false"
      inkscape:measure-start="508.571,454.286"
      inkscape:measure-end="-2.2143,397.5"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata11119">
@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -147,24 +147,24 @@
        ry="2.8222222" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="79.840553"
        y="195.29262"
        id="text893-1"><tspan
          sodipodi:role="line"
          x="79.840553"
          y="195.29262"
-         style="font-size:4.93888903px;stroke-width:0.26458332"
+         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan1382">Frecuencia cuando</tspan><tspan
          sodipodi:role="line"
          x="79.840553"
          y="201.46623"
-         style="font-size:4.93888903px;stroke-width:0.26458332"
+         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan11781">la información tiene</tspan><tspan
          sodipodi:role="line"
          x="79.840553"
          y="207.63985"
-         style="font-size:4.93888903px;stroke-width:0.26458332"
+         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan11783">valor = 1.  </tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45155555;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.45155556, 0.90311116;stroke-dashoffset:0.90311122;stroke-opacity:1;paint-order:fill markers stroke"
@@ -177,24 +177,24 @@
        ry="2.8222222" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="82.367447"
        y="265.05038"
        id="text893-1-4"><tspan
          sodipodi:role="line"
          x="82.367447"
          y="265.05038"
-         style="font-size:4.93888903px;stroke-width:0.26458332"
+         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan1382-5">Frecuencia cuando</tspan><tspan
          sodipodi:role="line"
          x="82.367447"
          y="271.224"
-         style="font-size:4.93888903px;stroke-width:0.26458332"
+         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan11781-0">la información tiene</tspan><tspan
          sodipodi:role="line"
          x="82.367447"
          y="277.39761"
-         style="font-size:4.93888903px;stroke-width:0.26458332"
+         style="font-size:4.93888903px;line-height:1.25;stroke-width:0.26458332"
          id="tspan11783-3">valor = 1.  </tspan></text>
   </g>
 </svg>
