@@ -138,8 +138,8 @@
      inkscape:window-height="703"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.37370295"
-     inkscape:cx="1010.9885"
+     inkscape:zoom="0.55017237"
+     inkscape:cx="387.3075"
      inkscape:cy="481.24729"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -261,8 +261,8 @@
        transform="matrix(0.75000002,0,0,-0.75000002,-165.05136,672.65995)"><flowRegion
          id="flowRegion5744"><rect
            id="rect5746"
-           width="356.48947"
-           height="50.164688"
+           width="392.84167"
+           height="48.347092"
            x="866.67499"
            y="264.38333" /></flowRegion><flowPara
          id="flowPara5748">Aplicacion de la GUI que utiliza el kit de </flowPara><flowPara
@@ -286,7 +286,7 @@
            height="66.174683"
            x="869.87701"
            y="425.55072" /></flowRegion><flowPara
-         id="flowPara5760"> Aplicacion GUI que utiliza el kit de herramientas QT (utiliza bloques</flowPara><flowPara
+         id="flowPara5760"> Aplicación GUI que utiliza el kit de herramientas QT (utiliza bloques</flowPara><flowPara
          id="flowPara5762"> GUI Qt).</flowPara></flowRoot><rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.20000005,2.4000001;stroke-dashoffset:2.4000001;stroke-opacity:1"
        id="rect5766"
@@ -317,7 +317,7 @@
            height="64.040039"
            x="915.77234"
            y="529.08209" /></flowRegion><flowPara
-         id="flowPara5782">Aplicacion de la línea de ordenes sin GUI ( basada en </flowPara><flowPara
+         id="flowPara5782">Aplicación de la línea de ordenes sin GUI (basada en </flowPara><flowPara
          id="flowPara5784">texto, ejecutada en una consola).</flowPara></flowRoot><rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.20000005,2.4000001;stroke-dashoffset:2.4000001;stroke-opacity:1"
        id="rect5788"
@@ -341,7 +341,7 @@
          id="flowPara5796"
          style="text-align:justify;text-anchor:start">Cree un bloque jerárquico que aparezca en la lista de bloques</flowPara><flowPara
          id="flowPara5798"
-         style="text-align:justify;text-anchor:start">( un componente reutilizable, no una aplicación: use los bloques Pad Source/Sink para exponer puertos y los bloques parametricos para exponer variables de configuracion.</flowPara></flowRoot><path
+         style="text-align:justify;text-anchor:start">(un componente reutilizable, no una aplicación: use los bloques Pad Source/Sink para exponer puertos y los bloques parametricos para exponer variables de configuración.</flowPara></flowRoot><path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6390)"
        d="m 238.17538,328.01348 238.17537,108.6414"
        id="path5484"

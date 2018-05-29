@@ -20,7 +20,7 @@
    inkscape:version="0.91 r13725"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><marker
        inkscape:stockid="Arrow2Lend"
        orient="auto"
@@ -209,9 +209,9 @@
      inkscape:window-height="703"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.58333335"
-     inkscape:cx="695.57706"
-     inkscape:cy="448.58926"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="458.07516"
+     inkscape:cy="342.64215"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -364,7 +364,7 @@
          y="-283.79117"
          x="499.89633"
          id="tspan4520"
-         sodipodi:role="line">1000.0 en notación cientifica</tspan></text>
+         sodipodi:role="line">1000.0 en notación científica</tspan></text>
 <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.20000003, 3.6000001;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4257-3"
@@ -408,7 +408,7 @@
          y="-260.90677"
          x="500.83548"
          id="tspan3410"
-         sodipodi:role="line">Frecuencia minima del slider</tspan></text>
+         sodipodi:role="line">Frecuencia mínima del slider</tspan></text>
 <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.20000003, 3.60000009;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4257-7"
@@ -430,7 +430,7 @@
          id="tspan3406"
          x="500.83548"
          y="-236.09377"
-         style="font-size:13.125px;stroke:none;stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Frecuencia maxima del slider</tspan></text>
+         style="font-size:13.125px;stroke:none;stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Frecuencia máxima del slider</tspan></text>
 <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.20000003, 3.6000001;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4257-7-5"
@@ -452,12 +452,12 @@
          id="tspan5996"
          x="510.7887"
          y="-201.88692"
-         style="font-size:13.125px;line-height:125%;text-align:justify;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">El parametro 'freq' </tspan><tspan
+         style="font-size:13.125px;line-height:125%;text-align:justify;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">El parámetro 'freq' </tspan><tspan
          sodipodi:role="line"
          x="510.7887"
          y="-185.48067"
          style="font-size:13.125px;line-height:125%;text-align:justify;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan6002">debería ser un numero</tspan><tspan
+         id="tspan6002">debería ser un número</tspan><tspan
          sodipodi:role="line"
          x="510.7887"
          y="-169.07442"
@@ -467,5 +467,5 @@
          x="510.7887"
          y="-152.66817"
          style="font-size:13.125px;line-height:125%;text-align:justify;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.075;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="tspan6006">numero entero.</tspan></text>
+         id="tspan6006">número entero.</tspan></text>
 </g></svg>

@@ -32,13 +32,28 @@
   <defs
      id="defs6">
     <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4181"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4183" />
+    </marker>
+    <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
        refY="0.0"
        refX="0.0"
        id="Arrow1Lstart"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path4458"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
@@ -74,8 +89,8 @@
      inkscape:window-height="703"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.55942977"
-     inkscape:cx="416.6778"
+     inkscape:zoom="0.58237513"
+     inkscape:cx="386.62844"
      inkscape:cy="402.18819"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -142,8 +157,8 @@
    style="stroke:#000000;stroke-opacity:1"
    id="flowSpan4471">opciones<flowSpan
    style="stroke:none"
-   id="flowSpan4475"> &quot; se utiliza para estabecer parametros globales.</flowSpan></flowSpan></flowPara></flowRoot>  <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
+   id="flowSpan4475"> &quot; se utiliza para establecer párametros globales.</flowSpan></flowSpan></flowPara></flowRoot>  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker4181)"
      d="M 190.79398,266.304 167.10921,201.8288"
      id="path5321"
      inkscape:connector-curvature="0" />

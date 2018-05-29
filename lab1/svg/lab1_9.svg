@@ -93,8 +93,8 @@
      inkscape:window-height="703"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.54185676"
-     inkscape:cx="561.7341"
+     inkscape:zoom="0.56408135"
+     inkscape:cx="546.22215"
      inkscape:cy="298.5"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -146,7 +146,7 @@
            x="142.54651"
            y="158.78737" /></flowRegion><flowPara
          id="flowPara4174"
-         style="text-align:center;text-anchor:middle">( Doble Clic)</flowPara></flowRoot><flowRoot
+         style="text-align:center;text-anchor:middle">(Doble Clic)</flowPara></flowRoot><flowRoot
        xml:space="preserve"
        id="flowRoot5250"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
@@ -179,7 +179,7 @@
          id="flowPara5264"
          style="text-align:justify;text-anchor:start"><flowSpan
    style="stroke:#000000;stroke-opacity:1"
-   id="flowSpan5276">ID</flowSpan>: (Python) nombre de la varible.</flowPara><flowPara
+   id="flowSpan5276">ID</flowSpan>: (Python) nombre de la variable.</flowPara><flowPara
          id="flowPara5266"
          style="text-align:justify;text-anchor:start"><flowSpan
    style="stroke:#000000;stroke-opacity:1"
@@ -189,9 +189,9 @@
          id="flowPara5270"
          style="text-align:justify;text-anchor:start">3200 ( el valor predeterminado ): un entero</flowPara><flowPara
          id="flowPara5272"
-         style="text-align:justify;text-anchor:start">32e6: 32000.0 ( numero de punto flotante).</flowPara><flowPara
+         style="text-align:justify;text-anchor:start">32e6: 32000.0 ( número de punto flotante).</flowPara><flowPara
          id="flowPara5274"
-         style="text-align:justify;text-anchor:start">Int(32e3):32000(conversion a int de un numero a punto flotante)</flowPara></flowRoot><path
+         style="text-align:justify;text-anchor:start">Int(32e3):32000(conversión a int de un numero a punto flotante)</flowPara></flowRoot><path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.20000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
        d="m 103.74484,351.57974 82.13134,1.4409 -2.8818,-187.31707 174.34897,0"
        id="path4660"
