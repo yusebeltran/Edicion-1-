@@ -15,7 +15,7 @@
    viewBox="0 0 990 765"
    id="svg3513"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="2.08.svg">
   <defs
      id="defs3515">
@@ -57,15 +57,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.82106903"
-     inkscape:cx="526.50856"
+     inkscape:cx="331.49247"
      inkscape:cy="431.1192"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="722"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      units="in"
      inkscape:showpageshadow="true"
@@ -119,7 +119,7 @@
          x="128.39839"
          y="566.97052"
          id="tspan6633"
-         style="font-size:17.5px">escala y &quot;se ajusta&quot;al area</tspan><tspan
+         style="font-size:17.5px">escala y &quot;se ajusta&quot; al área</tspan><tspan
          sodipodi:role="line"
          x="128.39839"
          y="588.84552"
@@ -134,55 +134,6 @@
        y="555.56482"
        rx="6.9751077"
        ry="8.473834" />
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 3.4;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4173"
-       width="489.34604"
-       height="53.599766"
-       x="388.10205"
-       y="826.052"
-       rx="6.9751101"
-       ry="8.4738302" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="696.04541"
-       y="769.80688"
-       id="text4184"
-       sodipodi:linespacing="125%"
-       transform="scale(0.9072678,1.1022104)"><tspan
-         sodipodi:role="line"
-         id="tspan4186"
-         x="698.83105"
-         y="769.80688">Nombre de una variable GRC <tspan
-   style="font-size:17.5px;stroke:#000000;stroke-width:0.7688036px;stroke-opacity:1"
-   id="tspan7103">existente</tspan> que se establecerá a </tspan><tspan
-         sodipodi:role="line"
-         x="696.04541"
-         y="791.68188"
-         id="tspan4190">la frecuencia en la que haga clic en el área de trazado FFT.</tspan></text>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 3.4;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4199"
-       width="367.25766"
-       height="24.814707"
-       x="379.16873"
-       y="670.2157"
-       rx="10"
-       ry="10" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.53205395px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="618.63312"
-       y="624.6001"
-       id="text6925"
-       sodipodi:linespacing="125%"
-       transform="scale(0.9072678,1.1022104)"><tspan
-         sodipodi:role="line"
-         id="tspan6927"
-         x="618.63312"
-         y="624.6001"
-         style="font-size:17.5px">Tiempo relativo a la frecuencia de muestreo</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.7, 1.7;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
        d="m 614.41215,569.96429 -66.50341,0.99259"
@@ -209,7 +160,7 @@
          sodipodi:role="line"
          id="tspan7831"
          x="573.19641"
-         y="500.47461">Valor  añadido  a los valores  del eje Y</tspan></text>
+         y="500.47461">Valor  añadido  a los valores  del eje X</tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 1.7;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4569"
@@ -230,6 +181,6 @@
          sodipodi:role="line"
          id="tspan7825"
          x="573.79724"
-         y="475.26453">Establece el rango en el eje Y</tspan></text>
+         y="475.26453">Establece el rango en el eje X</tspan></text>
   </g>
 </svg>

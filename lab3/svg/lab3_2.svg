@@ -16,7 +16,7 @@
    height="8.5in"
    viewBox="0 0 1056 816.00001"
    sodipodi:docname="lab3.2.svg"
-   inkscape:version="0.92.3 (3ce5693, 2018-03-11)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata131">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -137,6 +137,13 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path8872-0" />
     </marker>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -148,14 +155,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-height="705"
      id="namedview127"
      showgrid="false"
-     inkscape:zoom="0.51"
-     inkscape:cx="683.65556"
-     inkscape:cy="436.53155"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:zoom="0.83039936"
+     inkscape:cx="576.11065"
+     inkscape:cy="447.42085"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg125"
      inkscape:snap-bbox="true"
@@ -352,25 +359,12 @@
      style="opacity:1;fill:#fffffc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:1.60000002, 4.80000007;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
      id="rect10919"
      width="304.93405"
-     height="90.648346"
+     height="98.491516"
      x="55.842968"
      y="605.26971"
      rx="10"
      ry="10" />
   <flowRoot
-     xml:space="preserve"
-     id="flowRoot12095"
-     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1;font-family:sans-serif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-     transform="translate(111.74228,215.30238)"><flowRegion
-       id="flowRegion12097"
-       style="font-size:18.66666603px;line-height:1;text-align:justify;text-anchor:start"><rect
-         id="rect12099"
-         width="286.25052"
-         height="75.289543"
-         x="-47.297298"
-         y="398.86929"
-         style="font-size:18.66666603px;line-height:1;text-align:justify;text-anchor:start" /></flowRegion><flowPara
-       id="flowPara12101">Se utiliza para visualizar los diferentes tipos de gráficos arrojados por el Scope, el FFT, y el Waterfall</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot210"
      style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1;font-family:sans-serif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -383,4 +377,27 @@
          x="911.11108"
          y="71.879051"
          style="font-size:18.66666603px;line-height:1;text-align:justify;text-anchor:start" /></flowRegion><flowPara
-       id="flowPara216">Los valores de las muestras en punto flotante se deben normalizar entre -1.0 y 1.0. El generador de audio escalará las muestras apropiadamente para el hardware. Por lo tanto, debemos elegir una amplitud (0.7) que sea un poco menor que la escala completa (es decir, &lt;1.0). Esta es una buena práctica (para los RTLS-SDR también).   </flowPara></flowRoot></svg>
+       id="flowPara216">Los valores de las muestras en punto flotante se deben normalizar entre -1.0 y 1.0. El generador de audio escalará las muestras apropiadamente para el hardware. Por lo tanto, debemos elegir una amplitud (0.7) que sea un poco menor que la escala completa (es decir, &lt;1.0). Esta es una buena práctica (para los RTLS-SDR también).   </flowPara></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="-220.58824"
+     y="351.29413"
+     id="text169"><tspan
+       sodipodi:role="line"
+       id="tspan167"
+       x="-220.58824"
+       y="365.99097" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot171"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1;font-family:sans-serif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(586.27451,421.56862)"><flowRegion
+       id="flowRegion173"
+       style="text-align:justify;text-anchor:start"><rect
+         id="rect175"
+         width="279.4118"
+         height="97.058823"
+         x="-522.54901"
+         y="186.58823"
+         style="text-align:justify;text-anchor:start" /></flowRegion><flowPara
+       id="flowPara177">Se utiliza para visualizar los diferentes tipos de gráficos arrojados por el osciloscopio, el FFT, y el diagrama de cascada.</flowPara></flowRoot></svg>
