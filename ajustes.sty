@@ -16,10 +16,6 @@
 % Layout scheme for outer elements: split header and footer
 
 
-
-
-
-
 \useoutertheme{split}
 
 % Color scheme for outer elements: use background colors
@@ -67,7 +63,6 @@
 
 
 
-
 %%%
 %%% Tweak definitions of outer theme to match Radboud (website) style
 %%%
@@ -104,71 +99,94 @@
   \begin{beamercolorbox}[wd=.25\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
     \usebeamerfont{author in head/foot}\insertshortdate
   \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.416667\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+  \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
     \usebeamerfont{title in head/foot}\insertshorttitle
   \end{beamercolorbox}%
-   \begin{beamercolorbox}[wd=0.083333\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
+   \begin{beamercolorbox}[wd=0.1\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
     \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
   \end{beamercolorbox}}%
   \vskip0pt%
 }
 
 
+%%Para dos columnas en el índice comentarear lo que está entre %----% quitar comentario a lo que está entre %++++%
+
+%----%
 
 \defbeamertemplate*{headline}{ru theme}{%
   \leavevmode%
   \@tempdimb=2.4375ex%
     \multiply\@tempdimb by\beamer@sectionmax%
-  \pgfdeclareimage[height=.75\@tempdimb]{logo}{imagenes/logo3}%
+  \pgfdeclareimage[height=\@tempdimb]{logo}{imagenes/logo3}%
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%
-    \begin{beamercolorbox}[wd=.52\paperwidth,ht=.7\@tempdimb]{section in head/foot}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=\@tempdimb]{section in head/foot}%
       \vbox to\@tempdimb{\vfil\insertsectionnavigation{.5\paperwidth}\vfil}%
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.38\paperwidth,ht=.7\@tempdimb,right]{subsection in head/foot}%
+    \begin{beamercolorbox}[wd=.4\paperwidth,ht=\@tempdimb,right]{subsection in head/foot}%
       \vbox to\@tempdimb{\vfil\vfil\textbf{\footnotesize\insertshortinstitute~~}\vfil}%
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.1\paperwidth,ht=.7\@tempdimb,center]{subsection in head/foot}%
-      \vbox to\@tempdimb{\vfil\insertlogo}%
+    \begin{beamercolorbox}[wd=.1\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
+      \vbox to\@tempdimb{\vfil\insertlogo\vfil\vfil}%
     \end{beamercolorbox}%
   \fi%
 }
 
+%----%
 
 
+%++++%
 
-%-----------------------
+%\defbeamertemplate*{headline}{ru theme}{%
+%  \leavevmode%
+%  \@tempdimb=2.4375ex%
+%    \multiply\@tempdimb by\beamer@sectionmax%
+%  \pgfdeclareimage[height=\@tempdimb]{logo}{imagenes/logo3}%
+%  \logo{\pgfuseimage{logo}}%
+%  \ifdim\@tempdimb>0pt%
+%    \advance\@tempdimb by 1.125ex%
+%    \begin{beamercolorbox}[wd=.52\paperwidth,ht=.8\@tempdimb]{section in head/foot}%
+%      \vbox to\@tempdimb{\vfil\insertsectionnavigation{.5\paperwidth}\vfil}%
+%    \end{beamercolorbox}%
+%    \begin{beamercolorbox}[wd=.38\paperwidth,ht=.8\@tempdimb,right]{subsection in head/foot}%
+%      \vbox to\@tempdimb{\vfil\vfil\textbf{\footnotesize\insertshortinstitute~~}\vfil}%
+%    \end{beamercolorbox}%
+%    \begin{beamercolorbox}[wd=.1\paperwidth,ht=.8\@tempdimb,center]{subsection in head/foot}%
+%      \vbox to\@tempdimb{\vfil\insertlogo}%
+%    \end{beamercolorbox}%
+%  \fi%
+%}
 
 
-\def\insertsectionnavigation#1{%
-\vspace{-1.7cm} 
-  %\hbox to #1{\vbox{{\usebeamerfont{section in head/foot}%
-     %\usebeamercolor[]{section in head/foot}%
-     \def\slideentry##1##2##3##4##5##6{}%
-     \def\sectionentry##1##2##3##4##5{%
-       \ifnum##5=\c@part%
-       \def\insertsectionhead{##2\hskip1em}%
-       \def\insertsectionheadnumber{##3}%
-       \def\insertpartheadnumber{##5}%
-         \hyperlink{Navigation##3}{%
-             \ifnum\c@section=##1%
-               {\usebeamertemplate{section in head/foot}}%
-             \else%
-               {\usebeamertemplate{section in head/foot shaded}}%
-             \fi%
-         }\par
-       \fi}%
-       \parbox[t][0cm][t]{0.67\linewidth-2em}{%
-       \setlength\columnsep{2pt}
-       \begin{multicols}{2}
-       %\strut\makebox[2pt][l]{}\hspace{-15ex}%
-       \dohead
-       \end{multicols}}}
-     %}%
-%  \hfil}%
+%\def\insertsectionnavigation#1{%
+%\vspace{-1.7cm} 
+%  %\hbox to #1{\vbox{{\usebeamerfont{section in head/foot}%
+%     %\usebeamercolor[]{section in head/foot}%
+%     \def\slideentry##1##2##3##4##5##6{}%
+%     \def\sectionentry##1##2##3##4##5{%
+%       \ifnum##5=\c@part%
+%       \def\insertsectionhead{##2\hskip1em}%
+%       \def\insertsectionheadnumber{##3}%
+%       \def\insertpartheadnumber{##5}%
+%         \hyperlink{Navigation##3}{%
+%             \ifnum\c@section=##1%
+%               {\usebeamertemplate{section in head/foot}}%
+%             \else%
+%               {\usebeamertemplate{section in head/foot shaded}}%
+%             \fi%
+%         }\par
+%       \fi}%
+%       \parbox[t][0cm][t]{0.67\linewidth-2em}{%
+%       \setlength\columnsep{2pt}
+%       \begin{multicols}{2}
+%       %\strut\makebox[2pt][l]{}\hspace{-15ex}%
+%       \dohead
+%       \end{multicols}}}
+%     %}%
+%%  \hfil}%
  
-%-----------------
+%++++%
 
 
 
@@ -215,3 +233,76 @@
 %    \vskip-2pt
 }
 
+
+
+
+%%%%Para numeración de las páginas en la tabla de contenido
+
+\newcounter{sectionpage}
+
+\makeatletter
+\long\def\beamer@section[#1]#2{%
+  \beamer@savemode%
+  \mode<all>%
+  \ifbeamer@inlecture
+    \refstepcounter{section}%
+    \beamer@ifempty{#2}%
+    {\long\def\secname{#1}\long\def\lastsection{#1}}%
+    {\global\advance\beamer@tocsectionnumber by 1\relax%
+      \long\def\secname{#2}%
+      \long\def\lastsection{#1}%
+    \setcounter{sectionpage}{\insertframenumber}\stepcounter{sectionpage}%
+      \addtocontents{toc}{\protect\beamer@sectionintoc{\the\c@section}{#2\hfill\thesectionpage}{\the\c@page}{\the\c@part}%
+        {\the\beamer@tocsectionnumber}}}%
+    {\let\\=\relax\xdef\sectionlink{{Navigation\the\c@page}{\noexpand\secname}}}%
+    \beamer@tempcount=\c@page\advance\beamer@tempcount by -1%
+    \beamer@ifempty{#1}{}{%
+      \addtocontents{nav}{\protect\headcommand{\protect\sectionentry{\the\c@section}{#1}{\the\c@page}{\secname}{\the\c@part}}}%
+      \addtocontents{nav}{\protect\headcommand{\protect\beamer@sectionpages{\the\beamer@sectionstartpage}{\the\beamer@tempcount}}}%
+      \addtocontents{nav}{\protect\headcommand{\protect\beamer@subsectionpages{\the\beamer@subsectionstartpage}{\the\beamer@tempcount}}}%
+    }%
+    \beamer@sectionstartpage=\c@page%
+    \beamer@subsectionstartpage=\c@page%
+    \def\insertsection{\expandafter\hyperlink\sectionlink}%
+    \def\insertsubsection{}%
+    \def\insertsubsubsection{}%
+    \def\insertsectionhead{\hyperlink{Navigation\the\c@page}{#1}}%
+    \def\insertsubsectionhead{}%
+    \def\insertsubsubsectionhead{}%
+    \def\lastsubsection{}%
+    \Hy@writebookmark{\the\c@section}{\secname}{Outline\the\c@part.\the\c@section}{2}{toc}%
+    \hyper@anchorstart{Outline\the\c@part.\the\c@section}\hyper@anchorend%
+    \beamer@ifempty{#2}{\beamer@atbeginsections}{\beamer@atbeginsection}%
+  \fi%
+  \beamer@resumemode}%
+
+\def\beamer@subsection[#1]#2{%
+  \beamer@savemode%
+  \mode<all>%
+  \ifbeamer@inlecture%
+    \refstepcounter{subsection}%
+    \beamer@ifempty{#2}{\long\def\subsecname{#1}\long\def\lastsubsection{#1}}
+    {%
+      \long\def\subsecname{#2}%
+      \long\def\lastsubsection{#1}%
+    \setcounter{sectionpage}{\insertframenumber}\stepcounter{sectionpage}%
+      \addtocontents{toc}{\protect\beamer@subsectionintoc{\the\c@section}{\the\c@subsection}{#2\hfill\thesectionpage}{\the\c@page}{\the\c@part}{\the\beamer@tocsectionnumber}}%
+    }%
+    \beamer@tempcount=\c@page\advance\beamer@tempcount by -1%
+    \addtocontents{nav}{%
+      \protect\headcommand{\protect\beamer@subsectionentry{\the\c@part}{\the\c@section}{\the\c@subsection}{\the\c@page}{\lastsubsection}}%
+      \protect\headcommand{\protect\beamer@subsectionpages{\the\beamer@subsectionstartpage}{\the\beamer@tempcount}}%
+    }%
+    \beamer@subsectionstartpage=\c@page%
+    \edef\subsectionlink{{Navigation\the\c@page}{\noexpand\subsecname}}%
+    \def\insertsubsection{\expandafter\hyperlink\subsectionlink}%
+    \def\insertsubsubsection{}%
+    \def\insertsubsectionhead{\hyperlink{Navigation\the\c@page}{#1}}%
+    \def\insertsubsubsectionhead{}%
+    \Hy@writebookmark{\the\c@subsection}{#2}{Outline\the\c@part.\the\c@section.\the\c@subsection.\the\c@page}{3}{toc}%
+    \hyper@anchorstart{Outline\the\c@part.\the\c@section.\the\c@subsection.\the\c@page}\hyper@anchorend%
+    \beamer@ifempty{#2}{\beamer@atbeginsubsections}{\beamer@atbeginsubsection}%
+  \fi%
+  \beamer@resumemode}
+
+\makeatother

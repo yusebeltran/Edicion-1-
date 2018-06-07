@@ -1,0 +1,202 @@
+\subsection{Lab10: Señales FM para Walkie-Talkie}
+%*********************
+\begin{frame}{}
+
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo_lab}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+
+\bfseries{\textrm{\LARGE Lab10 \newline\Large Transmisión y recepción de \newline señales de radio FM para \newline Walkie-Talkie}}
+\raggedright
+\end{frame}
+%*********************
+
+\begin{frame}{Recepción de señales de radio FM para un Walkie-Talkie}
+
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo3}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+Para esta práctica se realiza el diagrama de bloques en el software GNU-Radio, esto se hace para captar las señales de las frecuencias portadoras de cada uno de los canales del radio EP150, a continuación se muestra el radio utilizado en esta práctica y su respectiva tabla de especificaciones, estas son necesarias durante la práctica, también se presenta el diagrama de bloques realizado para la captación de las portadoras.
+    
+\end{frame}
+%---------------------------------
+
+\begin{frame}{EP150}
+
+El EP150 presenta facilidad de uso, mantiene sus operaciones según lo programado, maximiza la productividad de los turnos laborales, mejorar la  seguridad y aumentar la satisfacción general de los clientes. El versátil EP150 es compatible con otros radios que funcionen en la misma frecuencia y código, y también tiene un complemento de accesorios para hacer que el radio se ajuste a sus necesidades.
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.3\textwidth]{parte3/lab10/pdf/lab10_1.pdf}
+\end{figure}
+
+\centering\tiny{Modelo EP150 UHF}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Especificaciones del radio}
+
+Estas especificaciones serán necesarias con el fin de conocer el rango de frecuencia de operación del radio.
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=\textwidth]{parte3/lab10/pdf/lab10_2.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{GQRX}
+
+Es necesario instalar el programa gqrx, útil para determinar las frecuencias de trabajo del radio en cada uno de sus canales, para instalarlo se usa:
+
+\begin{block}{}
+  \texttt{
+  \ \ \ sudo apt-get update
+    \begin{itemize}
+      \item[] sudo apt-get install gqrx-sdr
+    \end{itemize}}
+\end{block}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{HackRF One}
+
+Al iniciar el programa se configura el dispositivo, en este caso una Hack RF. Para verificar que este conectada al PC se puede usar la órden:
+
+\begin{block}{}
+  \texttt{
+  \ \ \ hackrf\_info}
+\end{block}
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.3\textwidth]{parte3/lab10/pdf/lab10_3.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Interfaz del programa}
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.9\textwidth]{parte3/lab10/pdf/lab10_4.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Detectar frecuencias}
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=\textwidth]{parte3/lab10/pdf/lab10_5.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Tabla de frecuencias}
+
+Al variar los 8 canales disponibles del dispositivo, se logran encontrar las frecuencias correspondientes.
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.8\textwidth]{parte3/lab10/pdf/lab10_6.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{}
+
+Obtenidos los rangos de frecuencias de cada uno de los canales del radio, se realiza el diagrama de bloques en GNU Radio con el fin de observar las señales portadoras de cada uno de los canales en un osciloscopio.
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.9\textwidth]{parte3/lab10/pdf/lab10_7.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Configuraciones}
+
+Se configura el bloque con el que se recepciona la señal con la tarjeta HackRF donde nos permite configurar mas de una tarjeta en la misma conexión.
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.8\textwidth]{parte3/lab10/pdf/lab10_8.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Configuraciones}
+
+Se configura el bloque con el que se demodula la señal con la tarjeta HackRF.
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.8\textwidth]{parte3/lab10/pdf/lab10_9.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Configuraciones}
+
+Se configura el bloque con el cual se decodifica la información mediante una comparación de frecuencias:
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=.5\textwidth]{parte3/lab10/pdf/lab10_10.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Configuraciones}
+
+Se configura el bloque que se utiliza como el selector de canal:
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=\textwidth]{parte3/lab10/pdf/lab10_11.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Interfaz gráfica para la demodulación de la señal}
+
+\begin{figure}[H]
+\centering
+\vspace{-3mm}
+\includegraphics[width=\textwidth]{parte3/lab10/pdf/lab10_12.pdf}
+\end{figure}
+
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Conclusión}
+
+Se observa y escucha la señal recibida por el EP150 y eventualmente la señal que envía una Hack RF transmisora de FM. El tiempo que corre el programa y esta la interfaz abierta graba y deposita la información en un WAV.
+
+\end{frame}
+%---------------------------------
+
