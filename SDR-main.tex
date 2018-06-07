@@ -1,0 +1,81 @@
+%\documentclass[usename,dvipsnames]{beamer}
+\documentclass[xcolor=table,usenames,dvipsnames]{beamer}
+
+%\documentclass [usename] {beamer}
+
+\usepackage[british]{babel}
+\usepackage{courier}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol,calc}
+\usepackage{ragged2e} 
+%\usepackage{verbatim} %letra de bloques
+\usepackage{menukeys}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{setspace} %espaciado
+\usepackage{ajustes}
+
+
+
+\title[Laboratorios SDR con GNU Radio]{
+  Laboratorios SDR con GNU Radio}
+
+\author[Ingeniería Electrónica]{Creación Colectiva\\
+\tiny 
+IPA 2018\\
+Amaya Lina, Ávila Daniel, Beltrán Camilo, Bonilla William, Casallas Santiago, Cruz Johan, Cubillos Neil, Flórez Jenny, Gómez Daniel, Hernández Cristian, López Lizeth, López Catalina, Malaver Cristian, Otálora Brayan, Puentes Carlos, Trujillo Santiago, Vargas Carlos. \\
+IIPA 2017\\
+Achury Brian, Caicedo William, Contreras Dimitri, Cruz Ángela, Flórez Jhonattan, Flórez Santiago, Gaitán Jorge, García Steven, Hernández Eduard, Leal Sebastián, Ledesma Yerson, Loaiza Andrés, Muñoz Melissa, Navarro Cristian, Ricardo Karen, Román María, Roncancio Jonhattan, Salamanca Camila, Sanabria Luisa, Sánchez David, Silva Daniel, Tobón Brayan, Vargas Alejandro, Vásquez Camilo, Vera Angel, Zamora José.\\
+IPA 2017\\
+Baquero Miguel, Buitrago Miguel, Campos Álvaro, Contreras Michael, Espinosa Kevin, Mahecha Jonathan, Moreno Santiago, Muñoz Alejandra, Rodríguez Anderson, Santamaría Cristian.\\
+\scriptsize
+Tutor\\ Rodríguez Mújica Leonardo}
+
+\institute[Universidad de Cundinamarca]{
+  Facultad de Ingeniería\\
+  Universidad de Cundinamarca}
+
+\date{Junio 2018}
+
+%-----------------------------------
+
+\begin{document}
+
+%espaciado item
+\let\olditemize\itemize
+\def\itemize{\olditemize\itemsep=4pt }
+\footnotesize
+
+\begin{frame}
+  \titlepage
+\end{frame}
+%-----------------------------------
+
+\begin{frame}
+\frametitle{Contenidos generales}
+\tableofcontents[subsectionstyle=hide/hide, subsubsectionstyle=hide/hide]
+\end{frame}
+%-----------------------------------
+
+
+%-----------------------------------
+
+\input{parte1/SDR-I}
+
+%/////////////////////////
+
+\input{parte2/SDR-II}
+
+%/////////////////////////
+
+\input{parte3/SDR-III}
+
+%/////////////////////////
+
+\input{bibliografia/bibliografia.tex}
+
+
+\end{document}
