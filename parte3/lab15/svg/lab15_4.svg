@@ -15,8 +15,8 @@
    width="1366"
    height="768"
    viewBox="0 0 1366 768"
-   sodipodi:docname="lab15_2.svg"
-   inkscape:version="0.92.1 r15371">
+   sodipodi:docname="lab15_4.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata186">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,15 +80,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1024"
-     inkscape:window-height="704"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
      id="namedview182"
      showgrid="false"
      inkscape:zoom="0.61067708"
      inkscape:cx="683"
      inkscape:cy="384"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg180" />
   <image
@@ -102,26 +102,30 @@
      clip-path="url(#clipPath216)"
      transform="translate(221.0661,-22.925373)" />
   <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.39055634;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.39055639, 2.78111278;stroke-dashoffset:3.62241483;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.773;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.773,3.546;stroke-dashoffset:3.546;stroke-opacity:1"
      id="rect4242"
-     width="260.00052"
-     height="47.358177"
-     x="172.12341"
-     y="242.41898"
-     rx="10.621886"
-     ry="5.5493121" />
+     width="276.19397"
+     height="57.001526"
+     x="131.27615"
+     y="244.1474"
+     rx="11.283442"
+     ry="6.6792955" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="196.50322"
-     y="275.10449"
+     x="150.65247"
+     y="268.55438"
      id="text100"><tspan
        sodipodi:role="line"
        id="tspan98"
-       x="196.50322"
-       y="275.10449">Se carga el audio (.wav)</tspan></text>
+       x="150.65247"
+       y="268.55438">Se carga la entrada, señal</tspan><tspan
+       sodipodi:role="line"
+       x="150.65247"
+       y="291.88773"
+       id="tspan6133">moduladora  (audio .wav)</tspan></text>
   <rect
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.07397914;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.07397928, 4.14795855;stroke-dashoffset:3.62241483;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.773;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.773,3.546;stroke-dashoffset:3.546;stroke-opacity:1"
      id="rect4242-3"
      width="259.31711"
      height="105.62572"
@@ -131,7 +135,7 @@
      ry="12.376956" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9680351"
+     style="font-style:normal;font-weight:normal;font-size:18.66666671px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9680351;"
      x="189.56958"
      y="540.54749"
      id="text119"
@@ -139,23 +143,23 @@
        sodipodi:role="line"
        x="189.56958"
        y="540.54749"
-       style="font-size:17.33333397px;stroke-width:0.9680351"
+       style="font-size:18.66666671px;stroke-width:0.9680351;"
        id="tspan123">Debe tener en cuenta que </tspan><tspan
        sodipodi:role="line"
        x="189.56958"
        y="562.21417"
-       style="font-size:17.33333397px;stroke-width:0.9680351"
+       style="font-size:18.66666671px;stroke-width:0.9680351;"
        id="tspan182"> el wav tiene que ser</tspan><tspan
        sodipodi:role="line"
        x="189.56958"
        y="583.8808"
-       style="font-size:17.33333397px;stroke-width:0.9680351"
-       id="tspan184"> estereo (dos canales)</tspan></text>
+       style="font-size:18.66666671px;stroke-width:0.9680351;"
+       id="tspan184"> estéreo (dos canales)</tspan></text>
   <path
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path5847"
-     d="M 321.86729,360.32083 259.54415,289.49105"
+     d="M 326.77987,370.14599 264.45673,299.31621"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70666671;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker4310)" />
   <path
      sodipodi:nodetypes="cc"
