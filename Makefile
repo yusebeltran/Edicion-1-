@@ -27,4 +27,4 @@ clean:
 	for dir in $(dirs); do \
 	$(MAKE) -C $$dir -f Makefile $@; \
 	done
-	latexmk -C
+	latexmk -c
