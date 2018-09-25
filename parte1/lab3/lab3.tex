@@ -78,7 +78,7 @@ En esta práctica se generará un tono desde la tarjeta de sonido de la computad
 Es importante saber que:\\
 \begin{itemize}
     \item
-    {Cuando Audio Sink es el único dispositivo hardware en el diagrama de bloques capaz de generar audio; el modo de bloqueo (‘OK to Block’) aplicará un regulador a la producción de muestras del sample\_rate, para que opere eficazmente al reproducir el sonido.}
+    {Cuando Audio Sink es el único dispositivo hardware en el diagrama de bloques capaz de generar audio, el modo de bloqueo (‘OK to Block’) aplicará un regulador a la producción de muestras del sample\_rate, para que opere eficazmente al reproducir el sonido\cite{Seeber2014}.}
     \item
     {Esto puede ser problemático si la fuente del diagrama de flujo es, por ejemplo, un RTL-SDR. La fuente es también un hardware que tiene su propio reloj interno y será regulado a la tasa de producción de las muestras, mientras que el Audio Sink regula el uso con su propio reloj no sincronizado. Esto se llama el problema de “dos relojes".}
 \end{itemize}
@@ -123,8 +123,8 @@ La misma onda seno de las prácticas anteriores, pero ahora se puede escuchar em
 \end{center}
 \end{figure}
 \vspace{-3mm}
-\tiny
-Visualiza el FFT que se desplaza en el tiempo mediante el diagrama de cascada (espectograma) de la señal emitida. Se añade un bloque de prueba por medio de un generador de señales y un variador deslizante con lo cual se escucha el tono variado en el Audio Sink y poder ver la variación de la frecuencia en el diagrama de cascada.
+
+Visualiza el FFT que se desplaza en el tiempo mediante el diagrama de cascada (espectrograma) de la señal emitida. Se añade un bloque de prueba por medio de un generador de señales y un variador deslizante con lo cual se escucha el tono variado en el Audio Sink y poder ver la variación de la frecuencia en el diagrama de cascada.
 \end{frame}
 %----------------
 
@@ -146,10 +146,10 @@ Visualiza el FFT que se desplaza en el tiempo mediante el diagrama de cascada (e
 \begin{figure}
 \begin{center}
 \vspace{-8mm}
-\includegraphics[width=\textwidth, height=0.65\paperheight]{parte1/lab3/pdf/lab3_8.pdf}
+\includegraphics[width=\textwidth]{parte1/lab3/pdf/lab3_8.pdf}
 \end{center}
 \end{figure}
-\vspace{-2cm}
+
 Muestra las diferentes señales presentes en el entorno captadas por la tarjeta de audio de la computadora a través del micrófono.
 
 \end{frame}
@@ -164,7 +164,6 @@ Muestra las diferentes señales presentes en el entorno captadas por la tarjeta 
 \end{center}
 \end{figure}
 \vspace{-5mm}
-\tiny
 Ejecutando el programa generador de onda sinusoidal al mismo tiempo, y cambiando la frecuencia. Se trata de una prueba aproximada de “loopback" en la que el micrófono de la computadora escucha sus altavoces.
 
 \end{frame}
@@ -179,8 +178,7 @@ Ejecutando el programa generador de onda sinusoidal al mismo tiempo, y cambiando
 \end{center}
 \end{figure}
 \vspace{-5mm}
-\tiny
-Con la retro-alimentación de las entradas micrófono-altavoces y generación de señal a través de la tarjeta de audio de la computadora.
+Con la realimentación de las entradas micrófono-altavoces y generación de señal a través de la tarjeta de audio de la computadora.
 
 \end{frame}
 %---------------

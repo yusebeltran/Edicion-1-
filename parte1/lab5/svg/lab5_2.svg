@@ -15,8 +15,8 @@
    viewBox="0 0 744.09449 520.36219"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="mod_7.svg">
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="lab5_2.svg">
   <defs
      id="defs4">
     <marker
@@ -82,15 +82,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.75024142"
-     inkscape:cx="311.75492"
-     inkscape:cy="232.41884"
+     inkscape:cx="-8988.9458"
+     inkscape:cy="5499.5568"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-others="false"
      inkscape:snap-page="false"
@@ -108,7 +108,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -176,7 +176,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot24221"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(0,614.99998)"><flowRegion
          id="flowRegion24223"><rect
            id="rect24225"
@@ -184,54 +184,49 @@
            height="37"
            x="381"
            y="119.36221" /></flowRegion><flowPara
-         id="flowPara24227" /></flowRoot>    <flowRoot
+         id="flowPara24227"
+         style="font-size:17.5px;line-height:1.25"> </flowPara></flowRoot>    <text
        xml:space="preserve"
-       id="flowRoot24229"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
-         id="flowRegion24231"><rect
-           id="rect24233"
-           width="122"
-           height="69"
-           x="293"
-           y="35.362213" /></flowRegion><flowPara
-         id="flowPara24235" /></flowRoot>    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="269"
        y="558.61218"
-       id="text24297"
-       sodipodi:linespacing="125%"><tspan
+       id="text24297"><tspan
          sodipodi:role="line"
          id="tspan24299"
          x="269"
-         y="558.61218">Aquí se produce un flujo</tspan><tspan
+         y="558.61218"
+         style="font-size:17.5px;line-height:1.25">Aquí se produce un flujo</tspan><tspan
          sodipodi:role="line"
          x="269"
          y="580.48718"
-         id="tspan24301">de muestras basadas en</tspan><tspan
+         id="tspan24301"
+         style="font-size:17.5px;line-height:1.25">de muestras basadas en</tspan><tspan
          sodipodi:role="line"
          x="269"
          y="602.36218"
-         id="tspan24303">un vector de entrada, </tspan><tspan
+         id="tspan24303"
+         style="font-size:17.5px;line-height:1.25">un vector de entrada, </tspan><tspan
          sodipodi:role="line"
          x="269"
          y="624.23718"
-         id="tspan24305">también se pueden </tspan><tspan
+         id="tspan24305"
+         style="font-size:17.5px;line-height:1.25">también se pueden </tspan><tspan
          sodipodi:role="line"
          x="269"
          y="646.11218"
-         id="tspan24307">producir etiquetas de </tspan><tspan
+         id="tspan24307"
+         style="font-size:17.5px;line-height:1.25">producir etiquetas de </tspan><tspan
          sodipodi:role="line"
          x="269"
          y="667.98718"
-         id="tspan24309">flujo de datos.</tspan></text>
+         id="tspan24309"
+         style="font-size:17.5px;line-height:1.25">flujo de datos.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="518.68469"
        y="641.98834"
-       id="text4423-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text4423-0"><tspan
          sodipodi:role="line"
          x="518.68469"
          y="641.98834"
@@ -259,11 +254,10 @@
          id="tspan4525">función. </tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="270.6767"
        y="967.06268"
-       id="text5136"
-       sodipodi:linespacing="125%"><tspan
+       id="text5136"><tspan
          sodipodi:role="line"
          x="270.6767"
          y="967.06268"
@@ -288,12 +282,13 @@
        id="text4433"
        y="684.76642 684.76642"
        x="379.59061 379.59061"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.38666677px;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;line-height:0%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan4435"
          y="684.76642 684.76642"
          x="379.59061 379.59061"
-         sodipodi:role="line"><tspan
+         sodipodi:role="line"
+         style="font-size:3.38666701px;line-height:1.25"><tspan
            id="tspan4437"
            style="font-style:normal;font-variant:normal;font-weight:400;font-family:Calibri;fill:#000000"
            dy="0 0"

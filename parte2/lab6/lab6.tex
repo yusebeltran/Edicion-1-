@@ -16,7 +16,7 @@
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 
 
-El RTL\_SDR es un dispositivo el cual permite combinar tanto la parte de software como hardware para implementar un sistema con el cual sea posible desarrollar procesos de radiocomunicaciones tanto de recepción como transmisión de señales.\\ \vspace{2mm}
+El RTL\_SDR es un dispositivo el cual permite combinar tanto la parte de software como hardware para implementar un sistema con el cual sea posible desarrollar procesos de radiocomunicaciones tanto de recepción como de transmisión de señales.\\ \vspace{2mm}
 El RTL se creó principalmente para solucionar los problemas de compilación para equipos con procesamiento de Pentium 4, esta tarjeta está diseñada para poder demodular señales en FM, AM y SSB con diferentes anchos de banda; también tiene la capacidad de analizar más de cien frecuencias en un segundo.\\\vspace{2mm}
 En general el RTL es una gran ayuda a nivel educativo ya que ayuda a hacer una estación receptora si no se tiene una.
 
@@ -64,7 +64,7 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     {\ \ \ root@user\~\$ sudo apt-get install libsox2}
     \end{block}}
     
-    \item{SOX es una herramienta conocida como la navaja suiza en manipulación de audio, ya que contiene las bibliotecas I/O que permiten el procesamiento del audio en diversos formatos.
+    \item{SOX es una herramienta conocida como “la navaja suiza” en manipulación de audio, ya que contiene las bibliotecas I/O que permiten el procesamiento del audio en diversos formatos.
     \begin{block}{}
     \texttt
     {\ \ \ root@user\~\$ sudo apt-get install sox}
@@ -104,7 +104,7 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     \texttt
     {\ \ \ root@user\~\$ sudo apt-get install gqrx-sdr}
     \end{block}}
-     \item { Este archivo contiene librerías y archivos de desarrollo que complemetan el funcionamiento de conexión de la rtl.
+     \item { Este archivo contiene librerías y archivos de desarrollo que complemetan el funcionamiento de conexión de la RTL.
     \begin{block}{}
     \texttt
     {\ \ \ root@user\~\$ sudo apt-get install librtlsdr-dev}
@@ -123,7 +123,7 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     \texttt
     {\ \ \ root@user\~\$ sudo apt-get install librtlsdr0}
     \end{block}}
-    \item {Este paquete permite el recepcionamiento I/Q para dispositivos basados en la RTL2832 
+    \item {Este paquete permite el recepcionamiento I/Q para dispositivos basados en la RTL2832. 
     \begin{block}{}
     \texttt
     {\ \ \ root@user\~\$ sudo apt-get install rtl-sdr}
@@ -136,15 +136,15 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
 \begin{frame}
 \frametitle{Procedimiento}
 
-Para iniciar es necesario abrir una nueva terminal, desde allí se realizará el procedimiento para testear la conección del hadware rtl con su computadora. \vspace{2mm}
-Se debe ingresar la siguiente órden:
+Para iniciar es necesario abrir una nueva terminal, desde allí se realizará el procedimiento para comprobar la conexión del hardware RTL con su computadora. \vspace{2mm}
+Se debe ingresar la siguiente orden:
 
 \begin{block}{}
     \texttt
     {\ \ \ root@user\~\$ rtl\_test}
     \end{block}
 
-RTL test es una herramienta testeadora de conexión para receptores DVB-T basados en RTL2832. \\ \vspace{2mm}
+\texttt{rtl\_test} es una herramienta verificadora de la conexión para receptores DVB-T basados en RTL2832. \\ \vspace{2mm}
 Si existe una respuesta satisfactoria evidenciará el siguiente mensaje:
 
 \begin{block}{}
@@ -165,8 +165,7 @@ Si el hadware RTL no está conectado evidenciará el siguiente mensaje:
     {No supported devices found.}
     \end{block}
 
-Al conectar mas de un dispositivo RTL y ejecutar la órden \texttt
-    {rtl\_test}, se visualiza un listado de los dispositivos con sus respectivas referencias, como se muestra a continuación.
+Al conectar mas de un dispositivo RTL y ejecutar la orden \texttt{rtl\_test}, se visualiza un listado de los dispositivos con sus respectivas referencias, como se muestra a continuación.
     
     \begin{block}{}
     \texttt
@@ -187,7 +186,7 @@ Al conectar mas de un dispositivo RTL y ejecutar la órden \texttt
 \begin{frame}
 \frametitle{Procedimiento}
 
-Al ser desconectada la RTL mientras se ejecuta el test lo notifica mediante el siguiente mensaje 
+Al ser desconectada la RTL mientras se ejecuta el test lo notifica mediante el siguiente mensaje: 
 
 \begin{block}{}
     \texttt{
@@ -207,7 +206,7 @@ Al ser desconectada la RTL mientras se ejecuta el test lo notifica mediante el s
 \begin{frame}
 \frametitle{Procedimiento}
 
-\textbf{Receptor de Radio Pública FM}
+\textbf{Receptor de Radio Pública FM}\\
 \vspace{2mm}
 Para esta práctica se debe realizar desde la terminal, puede utilizar la misma o abrir una nueva. Se ingresa la siguiente órden:
 
@@ -225,12 +224,12 @@ Para esta práctica se debe realizar desde la terminal, puede utilizar la misma 
 \begin{frame}
 \frametitle{Procedimiento}
 
-En donde cada uno de los componentes de la órden rtl\_fm , tienen una función especifica para poder captar la señal de radio FM.
+En donde cada uno de los componentes del mando \texttt{rtl\_fm} , tienen una función especifica para poder captar la señal de radio FM.
 
 \begin{itemize}
     \item {\textit{-f 103.3M : } Indica la frecuencia de sintonización, es decir la de la Radio Pública a escuchar, para este caso 103.3MHz.}
     \item {\textit{-M wbfm :} Define el tipo de modulación, WBFM (banda ancha).Por defecto es fm (NBFM).Las opciones para -M son, fm, wbfm, raw, am, usb, lsb.}
-    \item {\textit{-s 1000k :} Indica que se toma una tasa de muestreo de 1M/seg}
+    \item {\textit{-s 1000k :} Indica que se toma una tasa de muestreo de 1MS/s}
     \item {\textit{-l 0 :} Deshabilita el squelch (actúa para suprimir la salida de audio de un receptor en ausencia de una señal de entrada deseada suficientemente fuerte)}
 \end{itemize}
 
@@ -240,14 +239,14 @@ En donde cada uno de los componentes de la órden rtl\_fm , tienen una función 
 \begin{frame}
 \frametitle{Procedimiento}
 
-Para ver más opciones de rtl\_fm, ejecute la siguiente órden:
+Para ver más opciones de \texttt{rtl\_fm}, ejecute lo siguiente::
 
 \begin{block}{}
   \texttt{
   \ \ \ root@user\~\$ rtl\_fm --help}
 \end{block} 
 
-Ahora bien, se utiliza el caracter \textbar  \ el cual es un conector para relacionar la órden \texttt{rtl\_fm} con la órden \texttt{play} para poder escuchar en el computador, la emisora sintonizada.
+Ahora bien, se utiliza el caracter \textbar  \ el cual es un conector para relacionar la orden \texttt{rtl\_fm} con la orden \texttt{play} para poder escuchar en el computador, la emisora sintonizada.
 
 \begin{block}{}
   \texttt{
@@ -263,7 +262,7 @@ Ahora bien, se utiliza el caracter \textbar  \ el cual es un conector para relac
 \begin{frame}
 \frametitle{Procedimiento}
 
-Play es un reproductor que lee y escribe archivos de audio en los formatos más populares y opcionalmente puede aplicarles efectos. Puede combinar múltiples fuentes de entrada, sintetizar audio y, en muchos sistemas, actuar como un reproductor de audio de propósito general o un grabador de audio multimedia. \\
+\texttt{play} es un reproductor que lee y escribe archivos de audio en los formatos más populares y opcionalmente puede aplicarles efectos. Puede combinar múltiples fuentes de entrada, sintetizar audio y, en muchos sistemas, actuar como un reproductor de audio de propósito general o un grabador de audio multimedia. \\
 \vspace{2mm }
 Cada uno de los componentes de play, tiene una función específica, para la reproducción de la señal captada:
 
@@ -284,7 +283,7 @@ Cada uno de los componentes de play, tiene una función específica, para la rep
 \begin{frame}
 \frametitle{Procedimiento}
 
-Para ver más opciones de play, ejecute la siguiente órden:
+Para ver más opciones de play, ejecute lo siguiente:
 
 \begin{block}{}
   \texttt{
