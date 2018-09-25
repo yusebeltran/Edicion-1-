@@ -1,4 +1,4 @@
-\subsection{Lab14: Tx FM para Walkie-Talkie UHF}
+\subsection{Lab14: Transmisión de señales de radio FM para Walkie-Talkie UHF}
 
 %*********************
 \begin{frame}{}
@@ -6,7 +6,7 @@
 \pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo_lab}
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 
-\bfseries{\textrm{\LARGE Lab14 \newline \Large Transmisión de señales FM \newline para radio Walkie-Talkie en la \newline banda UHF por medio de SDR
+\bfseries{\textrm{\LARGE Lab14 \newline \Large Transmisión de señales de\newline radio FM para Walkie-Talkie \newline UHF 
 }}
 \raggedright
 \end{frame}
@@ -18,7 +18,18 @@
 \pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo3}
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 
-Para este laboratorio se construirá un diagrama de bloques utilizando el software GNU Radio que nos permitirá realizar prácticas a través de radio definido por software, con el fin de realizar la transmisión de las señales de radiofrecuencia modulada en la banda de UHF en donde se encuentran las frecuencias de cada uno de los canales del dispositivo Motorola EP150, el cual será utilizado para llevar acabo correctamente la práctica.
+Para este laboratorio se utilizará radio definida por software, con el fin de realizar la transmisión de las señales de radiofrecuencia modulada en la banda de UHF en donde se encuentran las frecuencias de cada uno de los canales del dispositivo Motorola EP150, el cual será utilizado para llevar acabo correctamente la práctica.
+\end{frame}
+%---------------------------------
+
+\begin{frame}{Diagrama general}
+
+\begin{figure}[H]
+\centering
+\vspace{-1mm}
+\includegraphics[width=\textwidth]{parte3/lab14/pdf/Lab14_2.pdf}
+\end{figure}
+
 \end{frame}
 %---------------------------------
 
@@ -26,13 +37,13 @@ Para este laboratorio se construirá un diagrama de bloques utilizando el softwa
 
 \textbf{CTCSS}\\
 \vspace{3mm}
-El sistema continuo de silenciamiento codificado por tonos o CTCSS es un circuito que se utiliza para reducir la molestia de escuchar a otros usuarios en un canal compartido de comunicaciones de radio bidireccionales. A veces se lo conoce como silenciamiento de tono. Lo hace agregando un tono de audio de baja frecuencia a la voz. Cuando más de un grupo de usuarios está en la misma frecuencia de radio (llamados usuarios co-canal), los circuitos CTCSS silencian a los usuarios que están utilizando un tono CTCSS diferente o no CTCSS. (Wikipedia, 2018).
+El sistema continuo de silenciamiento codificado por tonos o CTCSS es un circuito que se utiliza para reducir la molestia de escuchar a otros usuarios en un canal compartido de comunicaciones de radio bidireccionales. A veces se lo conoce como silenciamiento de tono. Lo hace agregando un tono de audio de baja frecuencia a la voz. Cuando más de un grupo de usuarios está en la misma frecuencia de radio (llamados usuarios co-canal), los circuitos CTCSS silencian a los usuarios que están utilizando un tono CTCSS diferente o no CTCSS \cite{Wikipedia2018}.
 \end{frame}
 %---------------------------------
 
 \begin{frame}{Detección de portadoras y tonos privados}
 
-Para este procedimiento es necesario contar con el software SDR-Sharp el cual es un analizador de espectro de frecuencias y además cuenta con la función de detector de tonos privados CTCSS (actualmente solo cuenta con soporte para Windows), sumado a esto también se utilizará el dispositivo HackRF-One como receptor de señales FM, además del transmisor Motorola EP150. (Airspy, 2018).
+Para este procedimiento es necesario contar con el software SDR-Sharp el cual es un analizador de espectro de frecuencias y además cuenta con la función de detector de tonos privados CTCSS (actualmente solo cuenta con soporte para Windows), sumado a esto también se utilizará el dispositivo HackRF-One como receptor de señales FM, además del transmisor Motorola EP150 \cite{Airspy2018}.
 
 \end{frame}
 %---------------------------------
@@ -50,7 +61,7 @@ Para este procedimiento es necesario contar con el software SDR-Sharp el cual es
 
 \begin{frame}{Frecuencias de la señal de portadora}
 
-Como se mostró en la figura anterior se pueden observar la frecuencia de las portadoras de cada canal y su respectivo tono CTCSS el cual es de 67Hz como se muestra en la siguiente tabla, dado el caso de que las portadoras halladas y sus tonos no correspondan con la tabla es necesario reiniciar el dispositivo a sus valores de fabrica véase el manual. (Motorola, 2010) 
+Como se mostró en la figura anterior se pueden observar la frecuencia de las portadoras de cada canal y su respectivo tono CTCSS el cual es 67 Hz como se muestra en la siguiente tabla, dado el caso de que las portadoras halladas y sus tonos no correspondan con la tabla es necesario reiniciar el dispositivo a sus valores de fábrica véase el manual \cite{Motorola2010}.
 
 
 \begin{table}[]
@@ -71,18 +82,6 @@ Como se mostró en la figura anterior se pueden observar la frecuencia de las po
 8              & 463,8250 MHz                           \\ \hline
 \end{tabular}
 \end{table}
-
-\end{frame}
-%---------------------------------
-
-\begin{frame}{Desarrollo del diagrama en GNU Radio}
-Para la transmisión de la señal FM para el Walkie-Talkie se desarrolló el siguiente esquema:
-
-\begin{figure}[H]
-\centering
-\vspace{-1mm}
-\includegraphics[width=\textwidth]{parte3/lab14/pdf/Lab14_2.pdf}
-\end{figure}
 
 \end{frame}
 %---------------------------------
@@ -144,7 +143,7 @@ Luego se añade el tono CTCSS a la información a transmitir esto con el fin de 
 
 \begin{frame}{Desarrollo del diagrama en GNU Radio}
 
-En la siguiente etapa se implementa un filtro pasa bajas a la señal evitando frecuencias altas que pudieran llegar a contener ruido en la transmisión.
+En la siguiente etapa se implementa un filtro pasa bajas a la señal evitando frecuencias altas que puedan agregar ruido durante la transmisión.
 
 \begin{figure}[H]
 \centering
