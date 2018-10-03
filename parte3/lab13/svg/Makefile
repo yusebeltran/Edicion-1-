@@ -1,22 +1,20 @@
 .SUFFIXES:
 .SUFFIXES: .svg  
 
-awav = $(patsubst %.svg,%.pdf,$(wildcard *.svg))
+asvg = $(patsubst %.svg,../pdf/%.pdf,$(wildcard *.svg))
 
-DECO = ../main.py 
 
 .PHONY: clean
 
-todo: $(awav)
+todo: $(asvg)
 
 
-%.pdf: %.svg
-	@echo ---- Generando el pdf con $< 
-	# python $(DECO) $< $@
+../pdf/%.pdf: %.svg
+	@echo ---- Generando el $@ con $< ...
 	inkscape -D -A $@ $<
-	mv $@ ../pdf
+	#mv $@ ../pdf
 
 clean:
-	@echo  $(awav)
-	rm -rf $(awav) 
+	@echo  Borrando: $(asvg)
+	- rm -rf $(asvg) 
 
