@@ -25,12 +25,22 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs1214" />
+     id="defs1214">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 9.0176126,13.526415 1360.1566,18.035221 1357.1507,682.33268 6.0117417,685.33855 Z"
+         id="path38"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -46,7 +56,7 @@
      showgrid="false"
      inkscape:zoom="0.66536458"
      inkscape:cx="683"
-     inkscape:cy="88.331995"
+     inkscape:cy="509.15391"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -60,5 +70,6 @@
      id="image1218"
      x="1.5029377"
      y="-223.93736"
-     style="stroke-width:0.82380265" />
+     style="stroke-width:0.82380265"
+     clip-path="url(#clipPath36)" />
 </svg>
