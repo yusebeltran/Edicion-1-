@@ -287,7 +287,7 @@ Para ver más opciones de play, ejecute lo siguiente:
 
 \begin{block}{}
   \texttt{
-  \ \ \ root@user\~\$ Play {-}help}
+  \ \ \ root@user\~\$ play {-}help}
 \end{block} 
 
 Finalmente, se obtendrá una respuesta, en donde se podrá visualizar la recepción de radio FM y escuchar la emisora sintonizada.
@@ -296,15 +296,146 @@ Finalmente, se obtendrá una respuesta, en donde se podrá visualizar la recepci
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Pregunta}
 
-Adicionalmente se realizó una prueba simple de las órdenes instaladas, en el software GNU Radio, implementando un transmisor FM.  
+¿Mediante la herramienta {\tt gqrx} haciendo uso del SDR-RTL cómo 
+se:
+\begin{enumerate}
+ 
+\item instala la herramienta
+\item cómo se configura para 
+\end{enumerate}
 
-\begin{center}
-\vspace{-0.3cm}
-\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_1.pdf}
-\end{center}
+sintonizar emrisoras comerciales de FM en su área? 
+
+
+%\begin{center}
+%\vspace{-0.3cm}
+%\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_1.pdf}
+%\end{center}
 
 
 \end{frame}
 %--------------------------
+
+\begin{frame}
+\frametitle{respuesta GQRX SDR-RTL }
+
+
+Para instalar la última versión de {\tt gqrx} añada backports a su archivo {\tt sources.list}
+
+\begin{block}{}
+  \texttt{
+  \ \ \ \$ sudo echo "deb http://ftp.ch.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
+}
+\end{block} 
+
+Asegúrese de que su índice local esté actualizado y luego instale los paquetes necesarios: 
+
+\begin{block}{}
+  \texttt{
+  \ \ \ \$ sudo apt-get update \\
+  \ \ \ \$ sudo apt-get install -t jessie-backports gqrx-sdr rtl-sdr  \\
+}
+\end{block} 
+
+Una vez que los paquetes están instalados, conecte el RTL-SDR a la computadora y luego inicie la GUI {\tt gqrx} desde un terminal: 
+
+
+\begin{block}{}
+  \texttt{
+  \ \ \ \$ gqrx
+}
+\end{block} 
+
+
+\end{frame}
+%--------------------------
+
+\begin{frame}{{\tt gqrx} FM}
+
+Una vez se abre {\tt gqrx}, se le presenta esta ventana
+\vspace{0.5cm}
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_1.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Configuración receptor}
+Una vez presionamos {\tt OK} se abre una ventana y en la parte derecha vemos la
+configuración del demodulador:
+\vspace{0.5cm}
+
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_2.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Configuración filtros}
+
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_3.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Configuración filtros}
+
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_4.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Reducción de interferencia}
+
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_5.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Audio}
+
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_6.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Configuración de la gráfica FFT}
+En la parte inferior derecha encontramos una ventana donde se configura la ganancia del audio
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_7.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+\begin{frame}{{\tt gqrx} Resultados}
+
+\begin{center}
+\vspace{-0.3cm}
+\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_8.pdf}
+\end{center}
+
+\end{frame}
+%-----------------------------------
+
+
+
