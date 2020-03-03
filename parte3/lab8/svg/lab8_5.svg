@@ -45,6 +45,42 @@
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
          transform="scale(1.1) rotate(180) translate(1,0)" />
     </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath98">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 7.5146771,58.614478 734.93542,55.608607 736.43836,-3.0058747 1363.1624,-4.5088101 1361.6595,743.95303 733.43249,742.4501 730.42662,661.29158 H 4.5088063 Z"
+         id="path100"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath102">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -78.022351,138.49869 685.517521,-2.58564 1.41637,-50.419965 590.62146,-1.29282 -1.4163,643.824185 -592.03788,-1.29281 -2.83272,-69.81227 H -80.855068 Z"
+         id="path104"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath106">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 7.5146771,58.614478 734.93542,55.608607 736.43836,-3.0058747 1363.1624,-4.5088101 1361.6595,743.95303 733.43249,742.4501 730.42662,661.29158 H 4.5088063 Z"
+         id="path108"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath110">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 7.5146771,58.614478 734.93542,55.608607 736.43836,-3.0058747 1363.1624,-4.5088101 1361.6595,743.95303 733.43249,742.4501 730.42662,661.29158 H 4.5088063 Z"
+         id="path112"
+         inkscape:connector-curvature="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -61,7 +97,7 @@
      showgrid="false"
      inkscape:zoom="0.66536458"
      inkscape:cx="663.22472"
-     inkscape:cy="490.44048"
+     inkscape:cy="512.12228"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -74,18 +110,21 @@
      id="image53"
      x="-1.5029354"
      y="-180.35223"
-     style="stroke-width:0.76527309" />
+     style="stroke-width:0.76527309"
+     clip-path="url(#clipPath110)" />
   <path
      style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
      d="m 641.96869,274.62231 v 36.07045 h 94.68493 18.03523"
      id="path55"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccc" />
+     sodipodi:nodetypes="cccc"
+     clip-path="url(#clipPath106)" />
   <flowRoot
      xml:space="preserve"
      id="flowRoot1516"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.90035808"
-     transform="matrix(1.0611264,0,0,1.1625252,90.306254,-102.39374)"><flowRegion
+     transform="matrix(1.0611264,0,0,1.1625252,90.306254,-102.39374)"
+     clip-path="url(#clipPath102)"><flowRegion
        id="flowRegion1518"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;writing-mode:lr-tb;text-anchor:start;stroke-width:0.81064463"><rect
          id="rect1520"
@@ -102,5 +141,6 @@
      height="88.67305"
      x="767.70648"
      y="275.11935"
-     ry="8.6764002" />
+     ry="8.6764002"
+     clip-path="url(#clipPath98)" />
 </svg>
