@@ -1,0 +1,70 @@
+\subsubsection{Actividad 1_lab1}
+\begin{frame}
+
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo_seccion}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+\definecolor{greenU}{RGB}{212,202,72}
+\setbeamercolor{block body}{fg=Black,bg=greenU}
+\begin{block}{}
+	\centering
+	%\vspace{1mm}
+	\Large{\textit{Actividades}}
+	%\vspace{1mm}
+\end{block}
+\end{frame}
+
+\begin{frame}
+
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo3}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+\frametitle{\underline{\textbf{Transmisión de señales por multiplexación}}}
+
+En esta actividad usted debe transmitir 3 señales periódicas por medio del TCP (Protocolo de 	Control de Transmisión) desde el cliente, mediante el proceso de multiplexación de señales, al 	servidor, que se encargará de demultiplexar la señal recibida y mostrar las 3 que fueron  	transmitidas en el Scope Sink.\vspace{2mm}
+
+Es importante saber que:
+\begin{enumerate}[1.]
+\item {La multiplexación es el proceso mediante el cual diferentes mensajes de información (Señales) se combinan en una única señal con el fin de trasmitirla. }\\
+
+\item {La demultiplexación es el proceso mediante el cual la señal multiplexada recibida se divide en cada una de las señales que la generaron.}\\
+\end{enumerate}
+\end{frame}
+
+%-----------------------------------
+
+\begin{frame}
+
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{imagenes/fondo3}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+\frametitle{\underline{\textbf{Pistas para la actividad}}}
+
+Las pistas son:
+\begin{enumerate}[1.]
+	\item {Modo cliente: Bloques y conexiones de los primeros pasos. (WX GUI Slider, Signal Source, TCP Sink, Scope Sink, Throttle, Stream Mux, Variable)}
+	
+	\item {Modo servidor:  Bloques y conexiones de los primeros pasos. (TCP Source, Scope Sink, Stream to Streams)}
+	\item {Multiplexación: Bloque Stream Mux. En el parámetro Lengths se debe agregar el número de ítems de cada señal, en forma de lista. Para la actividad las señales cuentan con un solo ítem. 
+	Como ejemplo de lo anterior tenemos que: }
+\begin{itemize}
+	\item 2 señales = 1,1    
+	\item 3 señales = 1,1,1 
+	\item 4 señales = 1,1,1,1
+\end{itemize}
+	\item {Demultiplexación: Bloque Stream to Streams.}
+    \item { El tipo de dato en todos los bloques debe ser el mismo. (float)}
+	\item {Habilitar las entradas o salidas suficientes para los bloques.}
+\end{enumerate}
+\end{frame}
+
+%-----------------------------------
+
+%\begin{frame}{Actividad de los Primeros pasos }
+%\begin{figure}[H]
+%\centering
+%\vspace{-3mm}
+%\includegraphics[width=0.9\textwidth]{parte1/lab1/Actividades/pdf/prueba.pdf}
+%\end{figure}
+%\end{frame}
+%-----------------------------------
