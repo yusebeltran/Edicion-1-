@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg6329"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    width="11in"
    height="8.5in"
    viewBox="0 0 990 765"
-   sodipodi:docname="2.12.svg">
+   sodipodi:docname="lab2_11.svg">
   <metadata
      id="metadata6335">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,17 +71,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="722"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
      id="namedview6331"
      showgrid="false"
-     inkscape:zoom="0.74642639"
-     inkscape:cx="242.31655"
-     inkscape:cy="347.50212"
+     inkscape:zoom="1.4928528"
+     inkscape:cx="486.14501"
+     inkscape:cy="446.64117"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6329"
+     inkscape:current-layer="g4189"
      units="in" />
   <g
      id="g4189"
@@ -109,19 +109,20 @@
        id="rect4177"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.70000005, 3.4000001;stroke-dashoffset:0;stroke-opacity:1" />
     <text
-       sodipodi:linespacing="125%"
        id="text7948"
        y="320.28754"
        x="177.11412"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.99599998;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.99599998;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="320.28754"
          x="177.11412"
          id="tspan7950"
-         sodipodi:role="line">Seleccionar el promedio, que tiene el </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:17.5px;line-height:1.25">Selecciona el promedio, que tiene el </tspan><tspan
          id="tspan7952"
          y="342.16254"
          x="177.11412"
-         sodipodi:role="line">efecto de alisar/aplanar el nivel de ruido </tspan></text>
+         sodipodi:role="line"
+         style="font-size:17.5px;line-height:1.25">efecto de alisar/aplanar el nivel de ruido </tspan></text>
   </g>
 </svg>

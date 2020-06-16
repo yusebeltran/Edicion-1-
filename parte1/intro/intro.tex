@@ -46,13 +46,12 @@ radio en el mundo.
 \item Estando conectado a internet, escriba dentro del terminal:
 
   \begin{block}{}
-  \texttt{
-    sudo apt-get install gnuradio}
+  \texttt{ sudo apt-get install gnuradio}
   \end{block}
 
 \item Si su dispositivo tiene contrase\~na, debe ingresarla, al ser solicitada y oprimir \keys{\return}. 
 \item Luego se deben aceptar los términos de la instalación oprimiendo la letra \keys{s} seguido de \keys{\return}. 
-\item Una forma de verificar la correcta instalación es volviendo a ingresar el comando indicado en el punto 2, y si aparece un mensaje anunciando que GNU Radio ya está en su versión más reciente, su instalación fue correcta.
+\item Una forma de verificar la correcta instalación es volviendo a ingresar la orden indicada en el punto 2, y si aparece un mensaje anunciando que GNU Radio ya está en su versión más reciente, su instalación fue correcta.
 \end{enumerate}
 \end{frame}
 %----------------------------
@@ -60,38 +59,52 @@ radio en el mundo.
 \begin{frame}{Paquetes\index{Paquetes}}
 Con el objetivo de clonar el repositorio y obtener los ejemplos de GNU Radio en nuestro ordenador se deben instalar los siguientes paquetes: 
   \begin{itemize}
-  \item {BUILD-ESSENTIAL\\}
-    \begin{itemize}
-    \item
-    {Build essential es un paquete que contiene herramientas necesarias
-    para la creación, compilación e instalación de programas.}
-    \end{itemize}
-  \item {CMAKE\\}
-  {Es un sistema de construcción de código abierto multiplataforma. Se trata de  un conjunto de herramientas diseñadas para construir, testear y empaquetar software. Se utiliza para controlar el proceso de compilación de software utilizando una plataforma sencilla y unos archivos de configuración
-independientes del compilador.}
+  \item {\tt build-essential}
+
+    Build essential es un paquete que contiene herramientas necesarias
+    para la creación, compilación e instalación de programas.
+  
+  \item {\tt cmake}
+
+  Es un sistema de construcción de código abierto multiplataforma. Se trata de
+un conjunto de herramientas diseñadas para construir, testear y empaquetar
+software. Se utiliza para controlar el proceso de compilación de software
+utilizando una plataforma sencilla y unos archivos de configuración
+independientes del compilador.
+
   \end{itemize}
+
 \end{frame}
 %-------------------------------
 
 \begin{frame}{Paquetes}
   \begin{itemize}
-  \item {GIT\\}
-  \begin{itemize}
-    \item
-    {Este paquete contiene una Git; es un sistema de control de versiones distribuidas de código abierto desarrollado originalmente por Linux Torvalds para apoyar el desarrollo del kernel de Linux.}
-    \item
-    {El control de versiones es un sistema que registra los cambios realizados sobre un archivo o conjunto de archivos a lo largo del tiempo, de modo que se puedan recuperar versiones específicas más adelante.}
-    \end{itemize}
-  \item {LIBBOOST-ALL-DEV\\}
-  {Es una biblioteca de software libre y revisión por partes preparadas para extender las capacidades del lenguaje de programación; permite ser utilizada en cualquier tipo de proyectos.}
-  \end{itemize}
+  \item {\tt git}
+
+    Este paquete contiene un sistema de control de versiones
+distribuidas de código abierto desarrollado originalmente por Linux Torvalds
+para apoyar el desarrollo del kernel de Linux.
+    
+	El control de versiones es un sistema que registra los cambios
+realizados sobre un archivo o conjunto de archivos a lo largo del tiempo, de
+modo que se puedan recuperar versiones específicas más adelante.
+  
+	\item {\tt libboost-all-dev} 
+  
+	Boost es un conjunto de bibliotecas para el lenguaje de programación
+C++ que suministra un apoyo para tareas y estructuras como álgebra lineal,
+generación de números pseudoaleatorios, procesamiento de imágenes, expresiones
+regulares y pruebas unitarias. En el momento contiene 162 bibliotecas
+individuales.
+  
+	\end{itemize}
 \end{frame}
 
 %++++++++++++++++++++
 
 \begin{frame}{Paquetes\index{Paquetes}}
   \begin{itemize}
-  \item {LIBCPPUNIT-DEV\\}
+  \item {\tt libcppunit-dev}
   \begin{itemize}
     \item
     {Biblioteca de pruebas unitarias para C++.}
@@ -102,7 +115,7 @@ estructurado o en diseño funcional, una función o un procedimiento,
 en diseño orientado a objetos una clase. Esto sirve para asegurar que
 cada unidad funcione correcta y eficientemente por separado.}
     \end{itemize}
-  \item {DOXYGEN\\}
+  \item {\tt doxygen}
   {Es una herramienta para generar documentación a partir de código fuente. Es un sistema de documentación para C++, C, Java, Python. Es necesario solo si se desea generar referencias a documentación externa de la que no tiene las fuentes.}
   \end{itemize}
 \end{frame}
@@ -143,7 +156,7 @@ El código fuente de los ejemplos está almacenado en github, por lo tanto para 
     git clone https://github.com/gnuradio/gr-tutorial}
   \end{block}
 
-\item Una vez clonado el directorio, , en el PC empleado se deben ver exactamente los mismos archivos y carpetas que los del repositorio github.
+\item Una vez clonado el directorio, {\tt gr-tutorial}, en el PC empleado se deben ver exactamente los mismos archivos y carpetas que los del repositorio github.
 \end{itemize}
 \end{frame}
 
@@ -151,7 +164,7 @@ El código fuente de los ejemplos está almacenado en github, por lo tanto para 
 
 \begin{frame}{Instalación de módulos\index{Modulos}}
 \begin{itemize}
-\item Luego de haber clonado el repositorio, debemos buscar la carpeta \textbf{“gr-tutorial”} e ingresar a ella desde el terminal, para ello se digitan los siguientes mandos:
+\item Luego de haber clonado el repositorio, debemos buscar la carpeta \textbf{“gr-tutorial”} e ingresar a ella desde el terminal, para ello se digitan las siguientes órdenes:
 
   \begin{block}{}
   \texttt{
@@ -161,7 +174,7 @@ El código fuente de los ejemplos está almacenado en github, por lo tanto para 
     \end{itemize}}
   \end{block}
 
-Es importante mencionar que al escribir el primer comando se podrán observar la diferentes carpetas que se encuentran en el dispositivo, por lo tanto \textbf{“gr-tutorial”} debe aparecer entre las opciones para poder cambiar de directorio. 
+Es importante mencionar que al escribir la primera orden se podrán observar la diferentes carpetas que se encuentran en el dispositivo, por lo tanto \textbf{“gr-tutorial”} debe aparecer entre las opciones para poder cambiar de directorio. 
 \end{itemize}
 \end{frame}
 
@@ -169,7 +182,7 @@ Es importante mencionar que al escribir el primer comando se podrán observar la
 
 \begin{frame}{Instalación de módulos\index{Modulos}}
 \begin{itemize}
-\item Estando dentro de la carpeta, desde la terminal, se deben escribir los siguientes mandos, con la finalidad de instalar las soluciones o módulos:
+\item Estando dentro de la carpeta, desde la terminal, se deben escribir las siguientes órdenes, con la finalidad de instalar las soluciones o módulos:
 
   \begin{block}{}
   \texttt{
@@ -184,4 +197,19 @@ Es importante mencionar que al escribir el primer comando se podrán observar la
   \end{block}
 
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Resultado}
+En el directorio {\tt examples} encontrará los tutoriales:
+  \begin{block}{}
+  \texttt{
+    \begin{itemize}
+      \item[] tutorial1
+      \item[] tutorial2
+      \item[] ...
+      \item[] tutorial7
+    \end{itemize}}
+  \end{block}
+
+Puede explorar los ejemplos de los desarrolladores de GNU Radio 
 \end{frame}

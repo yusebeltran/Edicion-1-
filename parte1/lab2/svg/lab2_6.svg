@@ -12,11 +12,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8748"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    width="11in"
    height="8.5in"
    viewBox="0 0 990 765"
-   sodipodi:docname="2.06.svg">
+   sodipodi:docname="lab2_6.svg">
   <metadata
      id="metadata8754">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,13 +102,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="722"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
      id="namedview8750"
      showgrid="false"
-     inkscape:zoom="0.69044441"
-     inkscape:cx="511.14091"
-     inkscape:cy="396.09675"
+     inkscape:zoom="2.7617776"
+     inkscape:cx="319.83506"
+     inkscape:cy="450.95634"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -126,48 +126,52 @@
        height="449.0625"
        width="1067.8125" />
     <text
-       sodipodi:linespacing="125%"
        id="text9310"
        y="279.8598"
        x="386.55759"
-       style="font-style:normal;font-weight:normal;font-size:18.95641112px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan9314"
          y="279.8598"
          x="386.55759"
-         sodipodi:role="line">Use un Osciloscopio en modo XY para poder observar </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:18.95641136px;line-height:1.25">Use un Osciloscopio en modo XY para poder observar </tspan><tspan
          id="tspan10197"
-         y="301.7348"
+         y="303.55533"
          x="386.55759"
-         sodipodi:role="line">las caracteristicas de una señal IQ (en cuadratura) </tspan></text>
+         sodipodi:role="line"
+         style="font-size:18.95641136px;line-height:1.25">las caracteristicas de una señal IQ (en cuadratura) </tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text9662"
        y="259.20065"
        x="9.1441126"
-       style="font-style:normal;font-weight:normal;font-size:18.95641136px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="259.20065"
          x="9.1441126"
          id="tspan9664"
-         sodipodi:role="line">Se ha añadido</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:18.95641136px;line-height:1.25">Se ha añadido</tspan><tspan
          id="tspan9666"
          y="282.89618"
          x="9.1441126"
-         sodipodi:role="line">un deslizador para</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:18.95641136px;line-height:1.25">un deslizador para</tspan><tspan
          id="tspan9668"
          y="306.59167"
          x="9.1441126"
-         sodipodi:role="line">la amplitud de la </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:18.95641136px;line-height:1.25">la amplitud de la </tspan><tspan
          id="tspan9670"
          y="330.2872"
          x="9.1441126"
-         sodipodi:role="line">señal</tspan></text>
+         sodipodi:role="line"
+         style="font-size:18.95641136px;line-height:1.25">señal</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path4184"
-       d="M 911.00744,76.838473 714.03286,249.19123"
+       d="M 911.00744,76.838473 602.95711,252.34636"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)" />
     <path
        sodipodi:nodetypes="cc"
@@ -183,7 +187,7 @@
        height="110.76481"
        width="181.45528"
        id="rect4634"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 3.4;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.72638744;stroke-miterlimit:4;stroke-dasharray:1.72638744,3.45277488;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        ry="10"
        rx="10"
@@ -192,6 +196,6 @@
        height="59.382042"
        width="525.42944"
        id="rect4636"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 3.4;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.72638744;stroke-miterlimit:4;stroke-dasharray:1.72638744,3.45277488;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
 </svg>

@@ -15,8 +15,8 @@
    viewBox="0 0 990 765"
    id="svg3513"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="2.08.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="lab2_7.svg">
   <defs
      id="defs3515">
     <marker
@@ -56,16 +56,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.82106903"
-     inkscape:cx="331.49247"
-     inkscape:cy="431.1192"
+     inkscape:zoom="1"
+     inkscape:cx="198.31651"
+     inkscape:cy="492.70786"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      units="in"
      inkscape:showpageshadow="true"
@@ -95,45 +95,44 @@
        preserveAspectRatio="none"
        height="650.79041"
        width="952.79968" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.59375;stroke-miterlimit:4;stroke-dasharray:1.59375, 3.1875;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4163"
+       width="220.63586"
+       height="103.26118"
+       x="5.8869505"
+       y="561.53845"
+       rx="6.9751077"
+       ry="8.473834" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:13.45406246px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="128.39839"
-       y="523.22052"
+       y="528.32385"
        id="text4156"
-       sodipodi:linespacing="125%"
        inkscape:transform-center-x="37.948261"
        inkscape:transform-center-y="10.721398"
        transform="scale(0.9072678,1.1022104)"><tspan
          sodipodi:role="line"
          id="tspan4158"
          x="131.18404"
-         y="523.22052"
-         style="font-size:17.5px">Se utiliza para controlar </tspan><tspan
+         y="528.32385"
+         style="font-size:17.5px;line-height:1.25">Se utiliza para controlar </tspan><tspan
          sodipodi:role="line"
          x="131.18404"
-         y="545.09552"
+         y="550.19885"
          id="tspan4162"
-         style="font-size:17.5px">cómo la FFT calculada se </tspan><tspan
+         style="font-size:17.5px;line-height:1.25">cómo la FFT calculada se </tspan><tspan
          sodipodi:role="line"
          x="128.39839"
-         y="566.97052"
+         y="572.07385"
          id="tspan6633"
-         style="font-size:17.5px">escala y &quot;se ajusta&quot; al área</tspan><tspan
+         style="font-size:17.5px;line-height:1.25">escala y &quot;se ajusta&quot; al área</tspan><tspan
          sodipodi:role="line"
          x="128.39839"
-         y="588.84552"
+         y="593.94885"
          id="tspan6635"
-         style="font-size:17.5px">de trazado disponible</tspan></text>
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.30696619;stroke-miterlimit:4;stroke-dasharray:1.30696614, 2.61393228;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4163"
-       width="209.33257"
-       height="100.43536"
-       x="13.342951"
-       y="555.56482"
-       rx="6.9751077"
-       ry="8.473834" />
+         style="font-size:17.5px;line-height:1.25">de trazado disponible</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.7, 1.7;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
        d="m 614.41215,569.96429 -66.50341,0.99259"
@@ -141,28 +140,28 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 1.7;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.59375;stroke-miterlimit:4;stroke-dasharray:1.59375,1.59375;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4549"
        width="312.66531"
        height="22.829531"
-       x="365.27249"
+       x="391.52249"
        y="533.23853"
        ry="10"
        rx="10" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="573.19641"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="602.12952"
        y="500.47461"
        id="text7829"
-       sodipodi:linespacing="125%"
        transform="scale(0.9072678,1.1022104)"><tspan
          sodipodi:role="line"
          id="tspan7831"
-         x="573.19641"
-         y="500.47461">Valor  añadido  a los valores  del eje X</tspan></text>
+         x="602.12952"
+         y="500.47461"
+         style="font-size:17.5px;line-height:1.25">Valor  añadido  a los valores  del eje X</tspan></text>
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.70000005;stroke-miterlimit:4;stroke-dasharray:1.7, 1.7;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.59375;stroke-miterlimit:4;stroke-dasharray:1.59375,1.59375;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4569"
        width="265.02109"
        height="25.807295"
@@ -172,15 +171,15 @@
        ry="10" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="573.79724"
        y="475.26453"
        id="text7823"
-       sodipodi:linespacing="125%"
        transform="scale(0.9072678,1.1022104)"><tspan
          sodipodi:role="line"
          id="tspan7825"
          x="573.79724"
-         y="475.26453">Establece el rango en el eje X</tspan></text>
+         y="475.26453"
+         style="font-size:17.5px;line-height:1.25">Establece el rango en el eje X</tspan></text>
   </g>
 </svg>

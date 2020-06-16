@@ -15,8 +15,8 @@
    width="11in"
    height="8.5in"
    viewBox="0 0 990 765"
-   sodipodi:docname="lab1.2.svg"
-   inkscape:version="0.91 r13725">
+   sodipodi:docname="lab1_2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -40,13 +40,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="703"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.48767109"
-     inkscape:cx="572.47665"
-     inkscape:cy="494.51944"
+     inkscape:zoom="1.3793421"
+     inkscape:cx="166.4653"
+     inkscape:cy="482.21607"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -73,7 +73,7 @@
   <flowRoot
      xml:space="preserve"
      id="flowRoot4146"
-     style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      transform="translate(-149.07905,21.910307)"><flowRegion
        id="flowRegion4148"><rect
          id="rect4150"
@@ -82,4 +82,4 @@
          x="222.48036"
          y="477.41339" /></flowRegion><flowPara
        id="flowPara4173"
-       style="text-align:justify;text-anchor:start">Crea una onda senoidal e inspecciona las muestras generadas con un osciloscopio ( dominio del tiempo).</flowPara></flowRoot></svg>
+       style="font-size:17.5px;line-height:1.25;text-align:justify;text-anchor:start">Crea una onda senoidal e inspecciona las muestras generadas con un osciloscopio (dominio del tiempo).</flowPara></flowRoot></svg>
