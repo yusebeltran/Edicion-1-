@@ -16,7 +16,7 @@
    height="768"
    viewBox="0 0 1366 768"
    sodipodi:docname="lab8_3.svg"
-   inkscape:version="0.92.1 r15371">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata2401">
     <rdf:RDF>
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -262,15 +262,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
      id="namedview2397"
      showgrid="false"
-     inkscape:zoom="0.66536458"
-     inkscape:cx="810.64046"
-     inkscape:cy="476.24842"
+     inkscape:zoom="1.3307292"
+     inkscape:cx="995.87725"
+     inkscape:cy="346.99597"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2395"
      showguides="false" />
@@ -323,7 +323,17 @@
          height="121.73777"
          x="208.90802"
          y="278.04306" /></flowRegion><flowPara
-       id="flowPara6094" /></flowRoot>  <flowRoot
+       id="flowPara6094" /></flowRoot>  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.60000002, 3.20000004999999987;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect7059"
+     width="434.34833"
+     height="115.72603"
+     x="222.93152"
+     y="117.74953"
+     rx="19.941099"
+     ry="3.69364"
+     clip-path="url(#clipPath100)" />
+  <flowRoot
      transform="translate(-397.98235,-128.65785)"
      xml:space="preserve"
      id="flowRoot1156"
@@ -337,18 +347,8 @@
          x="628.22699"
          y="246.48141"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
-       id="flowPara1804">- los bloques &quot;Variable&quot; pueden contener cualquier expresión Python, esta puede ser una variable, un valor númerico, un string, etc.</flowPara><flowPara
-       id="flowPara1806">- El ID sirve para referenciar dicha variable</flowPara></flowRoot>  <rect
-     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.60000002, 3.20000005;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect7059"
-     width="434.34833"
-     height="115.72603"
-     x="222.93152"
-     y="117.74953"
-     rx="19.941099"
-     ry="3.69364"
-     clip-path="url(#clipPath100)" />
-  <path
+       id="flowPara1804">Los bloques &quot;Variable&quot; pueden contener cualquier expresión Python, esta puede ser una variable, un valor númerico, un string, etc.</flowPara><flowPara
+       id="flowPara1806">El ID sirve para referenciar dicha variable</flowPara></flowRoot>  <path
      style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7238)"
      d="m 991.38157,312.61057 42.08213,40.57926"
      id="path7063"
@@ -363,7 +363,7 @@
      sodipodi:nodetypes="cc"
      clip-path="url(#clipPath92)" />
   <rect
-     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.60000002, 3.20000005;stroke-dashoffset:0;stroke-opacity:1"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.60000002, 3.20000004999999987;stroke-dashoffset:0;stroke-opacity:1"
      id="rect7228"
      width="243.47455"
      height="76.649872"
@@ -387,7 +387,17 @@
          y="339.66339"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.36815929px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;writing-mode:lr-tb;text-anchor:start;stroke-width:0.60900855" /></flowRegion><flowPara
        id="flowPara7224">contiene los valores de la variable &quot;samp_rate&quot; en este caso 5 MHz</flowPara><flowPara
-       id="flowPara7226" /></flowRoot>  <flowRoot
+       id="flowPara7226" /></flowRoot>  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.5999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.60000002, 3.20000003999999993;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect7228-0"
+     width="243.47455"
+     height="82.661613"
+     x="950.17657"
+     y="369.90598"
+     rx="20.2861"
+     ry="3.9833367"
+     clip-path="url(#clipPath76)" />
+  <flowRoot
      xml:space="preserve"
      id="flowRoot7216-2"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.36815929px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.60900855"
@@ -402,14 +412,4 @@
          y="339.66339"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.36815929px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;writing-mode:lr-tb;text-anchor:start;stroke-width:0.60900855" /></flowRegion><flowPara
        id="flowPara7224-6">contiene los valores de la variable &quot;audio_rate_0&quot; en este caso 105.3 MHz</flowPara><flowPara
-       id="flowPara7226-5" /></flowRoot>  <rect
-     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.60000002, 3.20000004;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect7228-0"
-     width="243.47455"
-     height="82.661613"
-     x="950.17657"
-     y="369.90598"
-     rx="20.2861"
-     ry="3.9833367"
-     clip-path="url(#clipPath76)" />
-</svg>
+       id="flowPara7226-5" /></flowRoot></svg>

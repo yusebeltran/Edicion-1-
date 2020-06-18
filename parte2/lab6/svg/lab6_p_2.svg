@@ -15,8 +15,8 @@
    width="1082.2198"
    height="443.47278"
    viewBox="0 0 1082.2199 443.47276"
-   sodipodi:docname="g_1.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   sodipodi:docname="lab6_p_2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
      id="metadata6663">
     <rdf:RDF>
@@ -89,15 +89,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1299"
-     inkscape:window-height="713"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
      id="namedview6659"
      showgrid="false"
      inkscape:zoom="0.95433482"
-     inkscape:cx="530.38042"
-     inkscape:cy="214.9785"
-     inkscape:window-x="67"
-     inkscape:window-y="27"
+     inkscape:cx="452.8395"
+     inkscape:cy="208.6914"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6657" />
   <image
@@ -221,7 +221,7 @@
        y="147.98303"
        x="172.72948"
        sodipodi:role="line"
-       id="tspan7222">aca, se muestran para la recepcion</tspan><tspan
+       id="tspan7222">acá, se muestran para la recepción</tspan><tspan
        style="font-size:18.66666603px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.89503717;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        y="171.31636"
        x="175.70084"
@@ -252,14 +252,14 @@
        y="265.3895"
        x="172.25887"
        sodipodi:role="line"
-       id="tspan7226-4">La configuracion del modo es para</tspan><tspan
+       id="tspan7226-4">La configuración del modo es para</tspan><tspan
        style="font-size:18.66666603px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.89503717;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        y="288.72284"
        x="175.23022"
        sodipodi:role="line"
        id="tspan7274">el modo de modulacion de la </tspan><tspan
        style="font-size:18.66666603px;line-height:1.25;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.89503717;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       y="312.05618"
+       y="312.05615"
        x="175.23021"
        sodipodi:role="line"
        id="tspan7276">señal recibida </tspan><tspan

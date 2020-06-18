@@ -15,8 +15,8 @@
    viewBox="0 0 800.00001 390.00001"
    id="svg6196"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="lab9_3.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="lab11_3.svg">
   <defs
      id="defs6198">
     <marker
@@ -72,17 +72,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.88"
-     inkscape:cx="360.22728"
-     inkscape:cy="227.67209"
+     inkscape:zoom="2.4890159"
+     inkscape:cx="550.79038"
+     inkscape:cy="161.11693"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1871"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata6201">
@@ -92,7 +92,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -158,7 +158,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot5282"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(-26.282761,699.26992)"><flowRegion
          id="flowRegion5284"><rect
            id="rect5286"
@@ -166,10 +166,11 @@
            height="117.99483"
            x="64.788727"
            y="194.3662" /></flowRegion><flowPara
-         id="flowPara5288">Representa numéricamente la varible volumen y sus valores están entre 0 y maximo de 10, es usada en el bloque Multiply Const. </flowPara></flowRoot>    <flowRoot
+         id="flowPara5288"
+         style="font-size:17.5px;line-height:1.25">Representa numéricamente la variable volumen y sus valores están entre 0 y máximo de 10, es usada en el bloque Multiply Const. </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5282-4"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(238.31983,705.04853)"><flowRegion
          id="flowRegion5284-1"><rect
            id="rect5286-0"
@@ -177,10 +178,11 @@
            height="155.41139"
            x="75.315041"
            y="189.10304" /></flowRegion><flowPara
-         id="flowPara5288-7">Representa el valor de la frecuencia de la  portadora y es usada en el bloque Osmocom sink. </flowPara></flowRoot>    <flowRoot
+         id="flowPara5288-7"
+         style="font-size:17.5px;line-height:1.25">Representa el valor de la frecuencia de la  portadora y es usada en el bloque Osmocom sink. </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5282-0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(510.41532,707.11302)"><flowRegion
          id="flowRegion5284-8"><rect
            id="rect5286-1"
@@ -188,5 +190,6 @@
            height="107.45"
            x="64.788727"
            y="194.3662" /></flowRegion><flowPara
-         id="flowPara5288-6">Representa el valor de la ganancia que se le dara a la señal en el bloque Osmocom sink.</flowPara></flowRoot>  </g>
+         id="flowPara5288-6"
+         style="font-size:17.5px;line-height:1.25">Representa el valor de la ganancia que se le dará a la señal en el bloque Osmocom sink.</flowPara></flowRoot>  </g>
 </svg>

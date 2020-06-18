@@ -38,16 +38,16 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
 \textbf{Paquetes de SOX}
 \begin{itemize}
  
-    \item { Mediante esta órden, es posible la descarga de las librerías o paquetes necesarios para el correcto y completo funcionamiento de SOX.
+    \item  Mediante esta órden, es posible la descarga de las bibliotecas o paquetes necesarios para el correcto y completo funcionamiento de SOX.
     \begin{block}{}
-    \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install libsox-fmt-alsa}
-    \end{block}}
+    \texttt 
+    {\ \ \ box@user\~\$ sudo apt-get install libsox-fmt-alsa}
+    \end{block}
     
     \item{Este paquete contiene la mayoría de las bibliotecas de formatos de audio compatibles con SOX
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install libsox-fmt-base}
+    {\ \ \ box@user\~\$ sudo apt-get install libsox-fmt-base}
     \end{block}}
 \end{itemize}
 
@@ -61,13 +61,13 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     \item {Este paquete contiene la biblioteca sox que permite convertir varios formatos de archivos de audio de computadora en otros formatos.
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install libsox2}
+    {\ \ \ box@user\~\$ sudo apt-get install libsox2}
     \end{block}}
     
     \item{SOX es una herramienta conocida como “la navaja suiza” en manipulación de audio, ya que contiene las bibliotecas I/O que permiten el procesamiento del audio en diversos formatos.
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install sox}
+    {\ \ \ box@user\~\$ sudo apt-get install sox}
     \end{block}}
 \end{itemize}
 
@@ -81,13 +81,13 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     \item {Este paquete contiene una biblioteca compartida.
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install libgnuradio-osmosdr0.1.4}
+    {\ \ \ box@user\~\$ sudo apt-get install libgnuradio-osmosdr0.1.4}
     \end{block}}
     
     \item{Este paquete es el software que proporciona el control del hardware USB e independientemente de la API, pasar datos a aplicaciones de radio definidas por software en el host. Tiene la posibilidad de recibir o transmitir información.
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install libosmosdr0}
+    {\ \ \ box@user\~\$ sudo apt-get install libosmosdr0}
     \end{block}}
 \end{itemize}
 
@@ -102,12 +102,12 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     \item { Es un software que soporta dispositivos SDR tales como Airspy, funcube Dongles, rtl-sdr, HackRF, y USRP
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install gqrx-sdr}
+    {\ \ \ box@user\~\$ sudo apt-get install gqrx-sdr}
     \end{block}}
-     \item { Este archivo contiene librerías y archivos de desarrollo que complemetan el funcionamiento de conexión de la RTL.
+     \item { Este archivo contiene bibliotecas y archivos de desarrollo que complemetan el funcionamiento de conexión de la RTL.
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install librtlsdr-dev}
+    {\ \ \ box@user\~\$ sudo apt-get install librtlsdr-dev}
     \end{block}}
 \end{itemize}
 
@@ -121,12 +121,12 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
     \item {Este paquete contiene una biblioteca compartida.
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install librtlsdr0}
+    {\ \ \ box@user\~\$ sudo apt-get install librtlsdr0}
     \end{block}}
     \item {Este paquete permite el recepcionamiento I/Q para dispositivos basados en la RTL2832. 
     \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ sudo apt-get install rtl-sdr}
+    {\ \ \ box@user\~\$ sudo apt-get install rtl-sdr}
     \end{block}}
 \end{itemize}
 
@@ -134,14 +134,14 @@ Para instalar los paquetes desde consola se debe ingresar las siguientes órdene
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Probar la RTL}
 
 Para iniciar es necesario abrir una nueva terminal, desde allí se realizará el procedimiento para comprobar la conexión del hardware RTL con su computadora. \vspace{2mm}
 Se debe ingresar la siguiente orden:
 
 \begin{block}{}
     \texttt
-    {\ \ \ root@user\~\$ rtl\_test}
+    {\ \ \ box@user\~\$ rtl\_test}
     \end{block}
 
 \texttt{rtl\_test} es una herramienta verificadora de la conexión para receptores DVB-T basados en RTL2832. \\ \vspace{2mm}
@@ -156,7 +156,7 @@ Si existe una respuesta satisfactoria evidenciará el siguiente mensaje:
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Probar la RTL}
 
 Si el hadware RTL no está conectado evidenciará el siguiente mensaje:
 
@@ -165,7 +165,7 @@ Si el hadware RTL no está conectado evidenciará el siguiente mensaje:
     {No supported devices found.}
     \end{block}
 
-Al conectar mas de un dispositivo RTL y ejecutar la orden \texttt{rtl\_test}, se visualiza un listado de los dispositivos con sus respectivas referencias, como se muestra a continuación.
+Al conectar más de un dispositivo RTL y ejecutar la orden \texttt{rtl\_test}, se visualiza un listado de los dispositivos con sus respectivas referencias, como se muestra a continuación.
     
     \begin{block}{}
     \texttt
@@ -184,7 +184,7 @@ Al conectar mas de un dispositivo RTL y ejecutar la orden \texttt{rtl\_test}, se
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Probar la RTL}
 
 Al ser desconectada la RTL mientras se ejecuta el test lo notifica mediante el siguiente mensaje: 
 
@@ -204,15 +204,14 @@ Al ser desconectada la RTL mientras se ejecuta el test lo notifica mediante el s
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Receptor de radio pública FM}
 
-\textbf{Receptor de Radio Pública FM}\\
 \vspace{2mm}
 Para esta práctica se debe realizar desde la terminal, puede utilizar la misma o abrir una nueva. Se ingresa la siguiente órden:
 
 \begin{block}{}
   \texttt{
-  \ \ \ root@user\~\$ rtl\_fm -M wbfm -f 103.3M -s 1000k -l 0
+  \ \ \ box@user\~\$ rtl\_fm -M wbfm -f 103.3M -s 1000k -l 0
     \begin{itemize}
       \item[] {|play -r 32k -t raw -e s -b 16 -c 1 -V1 -}
     \end{itemize}}
@@ -222,7 +221,7 @@ Para esta práctica se debe realizar desde la terminal, puede utilizar la misma 
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Receptor de radio pública FM}
 
 En donde cada uno de los componentes del mando \texttt{rtl\_fm} , tienen una función especifica para poder captar la señal de radio FM.
 
@@ -237,20 +236,20 @@ En donde cada uno de los componentes del mando \texttt{rtl\_fm} , tienen una fun
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Receptor de radio pública FM}
 
 Para ver más opciones de \texttt{rtl\_fm}, ejecute lo siguiente::
 
 \begin{block}{}
   \texttt{
-  \ \ \ root@user\~\$ rtl\_fm --help}
+  \ \ \ box@user\~\$ rtl\_fm --help}
 \end{block} 
 
 Ahora bien, se utiliza el caracter \textbar  \ el cual es un conector para relacionar la orden \texttt{rtl\_fm} con la orden \texttt{play} para poder escuchar en el computador, la emisora sintonizada.
 
 \begin{block}{}
   \texttt{
-  \ \ \ root@user\~\$ rtl\_fm... |play -r 32k -t raw -e s -b 16 -c 1
+  \ \ \ box@user\~\$ rtl\_fm... |play -r 32k -t raw -e s -b 16 -c 1
     \begin{itemize}
       \item[] {-V1 -}
     \end{itemize}}
@@ -260,7 +259,7 @@ Ahora bien, se utiliza el caracter \textbar  \ el cual es un conector para relac
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Receptor de radio pública FM}
 
 \texttt{play} es un reproductor que lee y escribe archivos de audio en los formatos más populares y opcionalmente puede aplicarles efectos. Puede combinar múltiples fuentes de entrada, sintetizar audio y, en muchos sistemas, actuar como un reproductor de audio de propósito general o un grabador de audio multimedia. \\
 \vspace{2mm }
@@ -281,13 +280,13 @@ Cada uno de los componentes de play, tiene una función específica, para la rep
 %--------------------------
 
 \begin{frame}
-\frametitle{Procedimiento}
+\frametitle{Receptor de radio pública FM}
 
 Para ver más opciones de play, ejecute lo siguiente:
 
 \begin{block}{}
   \texttt{
-  \ \ \ root@user\~\$ play {-}help}
+  \ \ \ box@user\~\$ play {-}help}
 \end{block} 
 
 Finalmente, se obtendrá una respuesta, en donde se podrá visualizar la recepción de radio FM y escuchar la emisora sintonizada.
@@ -296,37 +295,14 @@ Finalmente, se obtendrá una respuesta, en donde se podrá visualizar la recepci
 %--------------------------
 
 \begin{frame}
-\frametitle{Pregunta}
-
-¿Mediante la herramienta {\tt gqrx} haciendo uso del SDR-RTL cómo 
-se:
-\begin{enumerate}
- 
-\item instala la herramienta
-\item cómo se configura para 
-\end{enumerate}
-
-sintonizar emrisoras comerciales de FM en su área? 
-
-
-%\begin{center}
-%\vspace{-0.3cm}
-%\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_1.pdf}
-%\end{center}
-
-
-\end{frame}
-%--------------------------
-
-\begin{frame}
-\frametitle{respuesta GQRX SDR-RTL }
+\frametitle{Instalar GQRX }
 
 
 Para instalar la última versión de {\tt gqrx} añada backports a su archivo {\tt sources.list}
 
 \begin{block}{}
   \texttt{
-  \ \ \ \$ sudo echo "deb http://ftp.ch.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
+  \ \ \  box@user\~\$ sudo echo "deb http://ftp.ch.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
 }
 \end{block} 
 
@@ -334,8 +310,8 @@ Asegúrese de que su índice local esté actualizado y luego instale los paquete
 
 \begin{block}{}
   \texttt{
-  \ \ \ \$ sudo apt-get update \\
-  \ \ \ \$ sudo apt-get install -t jessie-backports gqrx-sdr rtl-sdr  \\
+  \ \ \  box@user\~\$ sudo apt-get update \\
+  \ \ \  box@user\~\$ sudo apt-get install -t jessie-backports gqrx-sdr rtl-sdr  \\
 }
 \end{block} 
 
@@ -344,7 +320,7 @@ Una vez que los paquetes están instalados, conecte el RTL-SDR a la computadora 
 
 \begin{block}{}
   \texttt{
-  \ \ \ \$ gqrx
+  \ \ \ box@user\~\$ gqrx
 }
 \end{block} 
 
@@ -371,7 +347,7 @@ configuración del demodulador:
 
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_2.pdf}
+\includegraphics[width=.8\textwidth]{parte2/lab6/pdf/lab6_p_2.pdf}
 \end{center}
 
 \end{frame}
@@ -381,7 +357,7 @@ configuración del demodulador:
 
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_3.pdf}
+\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_p_3.pdf}
 \end{center}
 
 \end{frame}
@@ -391,7 +367,7 @@ configuración del demodulador:
 
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_4.pdf}
+\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_p_4.pdf}
 \end{center}
 
 \end{frame}
@@ -401,7 +377,7 @@ configuración del demodulador:
 
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_5.pdf}
+\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_p_5.pdf}
 \end{center}
 
 \end{frame}
@@ -411,7 +387,7 @@ configuración del demodulador:
 
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_6.pdf}
+\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_p_6.pdf}
 \end{center}
 
 \end{frame}
@@ -421,7 +397,7 @@ configuración del demodulador:
 En la parte inferior derecha encontramos una ventana donde se configura la ganancia del audio
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_7.pdf}
+\includegraphics[width=\textwidth]{parte2/lab6/pdf/lab6_p_7.pdf}
 \end{center}
 
 \end{frame}
@@ -431,7 +407,7 @@ En la parte inferior derecha encontramos una ventana donde se configura la ganan
 
 \begin{center}
 \vspace{-0.3cm}
-\includegraphics[width=.7\textwidth]{parte2/lab6/pdf/lab6_p_8.pdf}
+\includegraphics[width=.8\textwidth]{parte2/lab6/pdf/lab6_p_8.pdf}
 \end{center}
 
 \end{frame}
